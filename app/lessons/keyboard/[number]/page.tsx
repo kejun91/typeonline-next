@@ -8,7 +8,7 @@ type Props = {
     }
 }
 
-export default ({ params }: Props) => {
+export default function WithSameLayout({ params }: Props) {
     if (!['1','2','3','4'].includes(params.number)){
         notFound();
     } 

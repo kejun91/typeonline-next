@@ -92,7 +92,7 @@ interface Props {
     practiceType:string;
 }
 
-export default ({ practiceType }: Props) => {
+export default function InteractiveContent({ practiceType }: Props){
     const practiceText:string = practiceTexts[practiceType];
     const sampleTextContent = fetchSampleTextContent(practiceType, practiceTexts[practiceType]);
 

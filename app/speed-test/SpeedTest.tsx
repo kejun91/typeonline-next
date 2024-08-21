@@ -9,7 +9,7 @@ interface SpeedTestProps {
     type: string;
 }
 
-export default ({ pageId, title, type }: SpeedTestProps) => {
+export default function SpeedTest({ pageId, title, type }: SpeedTestProps){
     return <>
         <SideNavigation pageId={pageId} />
         <div id="mainContentBlock">

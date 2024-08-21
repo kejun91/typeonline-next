@@ -9,7 +9,7 @@ type Props = {
     }
 }
 
-export default ({ params }: Props) => {
+export default function WithDifferentLayout({ params }: Props){
     if (params.number !== '5' || !['uk-mac','uk-pc','us'].includes(params.layout)) {
         notFound();
     }

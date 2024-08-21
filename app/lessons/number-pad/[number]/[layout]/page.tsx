@@ -9,7 +9,7 @@ type Props = {
     }
 }
 
-export default ({ params }: Props) => {
+export default function WithDifferentLayout({ params }: Props){
     if (!['3','4'].includes(params.number) || !['big-plus','little-plus'].includes(params.layout)) {
         notFound();
     }

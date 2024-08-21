@@ -9,7 +9,7 @@ interface ExerciseInteractiveContentProps {
     layoutType: string|undefined;
 }
 
-export default ({ exerciseTexts, layoutType = 'US' }: ExerciseInteractiveContentProps) => {
+export default function InteractiveContent({ exerciseTexts, layoutType = 'US' }: ExerciseInteractiveContentProps){
     const selectExercisesRef = useRef<HTMLSelectElement>(null);
     const inputRef = useRef<HTMLInputElement>(null);
 

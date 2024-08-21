@@ -19,7 +19,7 @@ export const speedTestContents:{[key:string]:JSX.Element} = {
         <h3>What is WPM?</h3>
         <p>WPM is an abbreviation of Words-Per-Minute. Confusingly this does not literally mean whole words, as one might find in a dictionary, but rather word-units.</p>
         <p>For speed to be comparable, it must be measured in standard units. In the case of typing speed if we used actual words for the WPM measurement then typing speed test results would not be comparable unless everyone used the same texts for their respective typing speed tests - which would give us the additional factor of memorisation so, the word-units we use are artificial.</p>
-        <p>One word-unit is five keystrokes. Thus, <em>"typed"</em> is one word-unit, <em>"type on it"</em> is two word-units (spaces count as keystrokes too).</p>
+        <p>One word-unit is five keystrokes. Thus, <em>&quot;typed&quot;</em> is one word-unit, <em>&quot;type on it&quot;</em> is two word-units (spaces count as keystrokes too).</p>
         <h3>Typing technique</h3>
         <p>Before you begin the typing speed test make sure you are sitting up straight, your feet flat on the floor. Keep your elbows close to your body, your wrists straight and your forearms level, and remember to <a href="/safety-first">take regular breaks</a>.</p>
     </>,
@@ -37,7 +37,7 @@ export const speedTestContents:{[key:string]:JSX.Element} = {
         <h3>What is WPM?</h3>
         <p>WPM is an abbreviation of Words-Per-Minute. Confusingly this does not literally mean whole words, as one might find in a dictionary, but rather word-units.</p>
         <p>For speed to be comparable, it must be measured in standard units. In the case of typing speed if we used actual words for the WPM measurement then typing speed test results would not be comparable unless everyone used the same texts for their respective typing speed tests - which would give us the additional factor of memorisation so, the word-units we use are artificial.</p>
-        <p>One word-unit is five keystrokes. Thus, <em>"typed"</em> is one word-unit, <em>"type on it"</em> is two word-units (spaces count as keystrokes too).</p>
+        <p>One word-unit is five keystrokes. Thus, <em>&quot;typed&quot;</em> is one word-unit, <em>&quot;type on it&quot;</em> is two word-units (spaces count as keystrokes too).</p>
         <h3>Typing technique</h3>
         <p>Before you begin the typing speed test make sure you are sitting up straight, your feet flat on the floor. Keep your elbows close to your body, your wrists straight and your forearms level, and remember to <a href="/safety-first">take regular breaks</a>.</p>
     </>

@@ -5,6 +5,6 @@ type Props = {
     params:{type:string;}
 }
 
-export default ({ params }: Props) => {
+export default function WithType({ params }: Props){
     return <SpeedTest pageId={"speed-test/" + params.type} title={"Speed test"} type={params.type}/>;
 };

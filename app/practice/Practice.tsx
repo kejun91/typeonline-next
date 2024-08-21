@@ -9,7 +9,7 @@ interface PracticeProps {
     type: string;
 }
 
-export default ({ pageId, title, type }: PracticeProps) => {
+export default function Practice({ pageId, title, type }: PracticeProps){
     return <>
         <SideNavigation pageId={pageId} />
         <div id="mainContentBlock">

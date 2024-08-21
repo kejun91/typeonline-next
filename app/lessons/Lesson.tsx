@@ -10,7 +10,7 @@ interface LessonProps {
     layoutType?: string;
 }
 
-export default ({ pageId, title, layoutType }: LessonProps) => {
+export default function Lesson({ pageId, title, layoutType }: LessonProps){
     return <>
         <SideNavigation pageId={pageId} />
         <div id="mainContentBlock">
