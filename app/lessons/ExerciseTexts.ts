@@ -1,0 +1,146 @@
+export const exerciseTexts: {[key: string]: string[]} = {
+    "lessons/keyboard/1": [
+        "asdfg hjkl; asdfg hjkl ;lkjh gfdsa ;lkjh gfdsa",
+        "ah had lag slag ah had lag slag ah had",
+        "hash flash ask has hash flash ask has hash",
+        "dash gash lash dash gash lash dash gash lash",
+        "lad sash flag lad sash flag lad sash flag",
+        "fall gall hall lass fall gall hall lass fall",
+        "glass alfalfa adds glass alfalfa adds glass alfalfa adds",
+        "sad shall salad sad shall salad sad shall salad",
+        "ash glad alas ash glad alas ash glad alas",
+        "all flask half all flask half all flask half"
+    ],
+    "lessons/keyboard/2":[
+        'qwert yuiop qwert yuiop ; poiuy trewq poiuy trewq', 
+        'till quail tight yell; will those feat lake hash;', 
+        'wire this flay queue; there rail sale gypsy is;', 
+        'usher wake yaw tide; quash their light rash that;', 
+        'slit guide tale rage; the depth quest your these;', 
+        'tale trash slide day; take urge wages wake typist;', 
+        'play rest jaw quail; why fell its well peat two;', 
+        'typed sure peep sill; ogre rate quell paw yap use;', 
+        'if do pit dug wary; quaff law stop lair gate here;', 
+        'go her with hit; fight tug quill day saw yippee;'
+    ],
+    "lessons/keyboard/3":[
+        'zxcvb nm,./ zxcvb nm,./ /.,mn bvcxz /.,mn bvcxz ', 
+        'by, zip wean trying stump shrink rice ping/ mail ', 
+        'king fan crick, chill block. back abbot. aflame/ mix ',
+        'zest win, thump skunk. plain muffin, knight/ exit ', 
+        'daring. choke bishop. admit twine sultan, sing/ roman ', 
+        'pink, nicest mate knit. groan flock, divide coop/ advice ', 
+        'vilest turbot, track snick scoot revoke. rein/ paving ', 
+        'Office. Meat. Lean. Hiking. Feline. Decay. Clash. Bright. ', 
+        'Bump. Prank. Bate. Turnip. Bap. Aging. Aback. Wombat. Vine. ', 
+        'Vexing. Typing. Being. Sump. Faxing. Rink. Blot. Nice. '
+    ],
+    "lessons/keyboard/4":[
+        '12345 67890 12345 67890 09876 54321 09876 54321', 
+        '380, 157, 062, 519.238, 406, 925, 640, 502.798, 256', 
+        'A1 S2 D3 F4 G5 H6 J7 K8 L9 ;0 9l 8k 7j 6h 5g 4f 3d 2s 1a', 
+        'Moscow 013 Sofia 982 Nuuk 176 Riga 541 Vilnius 194', 
+        '32A Rome 174B Paris 985 Berlin 681 Madrid 704 Vienna', 
+        '831 Warsaw 495 Amsterdam 672 Brussels 140 Copenhagen', 
+        '640 Prague 135 Bratislava 217 Nicosia 489 Tallinn 810', 
+        '7.72 Helsinki 6.39 Athens 7.02 Valletta 14.2 Lisbon 87.5', 
+        '16.9 Ljubljana 0.24 Stockholm 81.3 Dublin 5.39 Oslo 71.6', 
+        '76.9 Belgrade 1.35 Reykjavik 72.0 Bern 86.4 Kiev'
+    ],
+    "lessons/keyboard/5/uk-mac":[
+        "!@£$% ^&amp;*()_+ +_)(*&amp;^ %$£@! !@£$% ^&amp;*()_+",
+        ";'\ p[] 0-= =-0 ][p /'; ;'\ p[] =-0",
+        "a`a a~a ;/; ,&lt;, .&gt;. /?/ ;:; '\' \|\ ]}] [{[",
+        "#15 @ $56.80 = 17%, 15*(12+3)=15^2, 2-4 != 4-2",
+        'if($totalqty ==0) {echo "you did not order anything";}',
+        "if(document.images) &amp;&amp; (prelodFlag ==)) {for var i=0;",
+        "&gt;&gt;&gt; for n in [1, 2, 3]: print n; %d x 7 = %d % (j,j*7)",
+        "void main() {int angle_degree; double angle_radian, pi",
+        "if(chdir $where){ #we got there } else { #not }",
+        "if (index &gt;= size) throw new ArrayIndexOutOfBounds"
+    ],
+    "lessons/keyboard/5/uk-pc":[
+        '|!"£$% ^&amp;*()_+ +_)(*&amp;^ %$£"!| |!"£$% ^&amp;*()_+',
+        ";\'# p[] 0-= #\'; ][p =-0 0-= p[] ;\'# #\'; ][p =-0",
+        "\a\ ,\&lt;, .&gt;. /?/ ;:; '@' #~# pPp [{[ ]}] 0)0 -_- =+=",
+        "#15 @ $56.80 = 17%, 15*(12+3)=15^2, 2-4 != 4-2",
+        'if($totalqty ==0) {echo "you did not order anything";}',
+        "if(document.images) &amp;&amp; (prelodFlag ==)) {for var i=0;",
+        "&gt;&gt;&gt; for n in [1, 2, 3]: print n; %d x 7 = %d % (j,j*7)",
+        "void main() {int angle_degree; double angle_radian, pi",
+        "if(chdir $where){ #we got there } else { #not }",
+        "if (index &gt;= size) throw new ArrayIndexOutOfBounds"
+    ],
+    "lessons/keyboard/5/us":[
+        "!@#$% ^&*()_+ +_)(*&^ %$#@! !@#$% ^&*()_+", 
+        ";'\/ p[] 0-= =-0 ][p /\'; ;'\/ p[] =-0", 
+        "1`1 1~1 ;/; ,<, .>. /?/ ;:; '\"' \\|\\ ]}] [{[ ", 
+        "#15 @ $56.80 = 17%, 15*(12+3)=15^2, 2-4 != 4-2", 
+        "if($totalqty ==0) {echo \"you did not order anything\";}", 
+        "if(document.images) && (prelodFlag ==)) {for var i=0;", 
+        ">>> for n in [1, 2, 3]: print n; %d x 7 = %d % (j,j*7)", 
+        "void main() {int angle_degree; double angle_radian, pi", 
+        "if(chdir $where){ #we got there } else { #not }", 
+        "if (index >= size) throw new ArrayIndexOutOfBounds"
+    ],
+    "lessons/number-pad/1":[
+        "0456++65400456++65400456++65400456++6540",
+        "6645+455605654+464605465+445405645+55640",
+        "6400+6040+6405+5646+6445+5600+6000+4455+",
+        "6455+4055+5566+6555+5060+4640+4450+5006+",
+        "6006+5646+6565+4000+6066+6600+5564+4544+",
+        "5644+6645+4546+5005+6660+5064+6456+6606+",
+        "4064+6540+5450+5000+4555+5506+6560+4664+",
+        "6406+5055+5665+4405+4460+5646+6504+4665+"
+    ],
+    "lessons/number-pad/2":[
+        "123..3214145256366.64145256366.6",
+        "42.65+53.56+44.10+46.11+14.62+6.51+14.03+",
+        "65.15+54.23+41.56+55.41+31.54+45.02+56.35+",
+        "31.46+31.43+31.15+36.42+15.33+15.03+2.40+",
+        "41.66+31.61+13.51+11.36+10.12+26.35+62.53+",
+        "4.52+53.15+51.21+26.12+36.20+26.01+34.66+",
+        "32.03+35.42+100.01+2.61+52.20+26.53+53.62+",
+        "66.34+3.24+46.36+30.40+21.50+25.31+20.54+"
+    ],
+    "lessons/number-pad/3/big-plus":[
+        "789++987474585696474585696",
+        "20.08+77.79+7.99+41.78+45.49+40.81+",
+        "3.84+16.94+68.66+100.82+48.69+92.63+",
+        "12.80+42.87+68.51+22.75+95.55+79.55+",
+        "79.22+86.71+55.99+32.87+78.34+83.02+",
+        "100.09+94.96+61.38+60.37+12.73+19.77+",
+        "8.94+5.93+73.59+86.63+40.77+2.37+",
+        "81.94+96.41+48.02+97.83+51.59+57.89+"
+    ],
+    "lessons/number-pad/3/little-plus":[ 
+        '789--987474585696+-+474585696+-+417528639+-+', 
+        '20.08+77.79-7.99+41.78-45.49+40.81-27.82+57.33', 
+        '3.84-16.94+68.66-100.82+48.69-92.63+49.98-30.07', 
+        '12.80+42.87-68.51+22.75-95.55+79.55-53.47+40.94', 
+        '79.22-86.71+55.99-32.87+78.34-83.02+28.77-34.84', 
+        '100.09+94.96-61.38+60.37-12.73+19.77-79.79+59.75', 
+        '8.94-5.93+73.59-86.63+40.77-2.37+17.72-94.73', 
+        '81.94+96.41-48.02+97.83-51.59+57.89-4.49+20.79' 
+    ],
+    "lessons/number-pad/4/big-plus":[
+        "-*/-*/5/56*6+-+5/56*6+-+",
+        "6.74/68.50*6.74-67.75/45.36*28.08-48.89/",
+        "53.96/67.47*73.69-32.09/71.89*20.96-24.18/",
+        "86.29/23.65*12.72-85.27/21.87*13.25-64.41/",
+        "0.86/74.58*35.93-87.92/58.38*15.57-100.14/",
+        "61.30/23.47*90.75-97.42/53.41*32.65-66.86", 
+        "69.59/6.01*38.22-55.18/56.98*24.12-49.50+",
+        "84.63/10.33*28.91-6.20+17.07/56.73*43.91"
+    ],
+    "lessons/number-pad/4/little-plus":[
+        "*/=*/=5=56/6+*+52=563/6+*+",
+        "6.74/68.50*6.74=67.75/45.36*28.08=48.89/",
+        "53.96/67.47*73.69=32.09/71.89*20.96=24.18/",
+        "86.29/23.65*12.72=85.27/21.87*13.25=64.41/",
+        "0.86/74.58*35.93-87.92/58.38*15.57=100.14/",
+        "61.30/23.47*90.75=97.42/53.41*32.65=66.86/",
+        "69.59/6.01*38.22=55.18/56.98*24.12=49.50+",
+        "84.63/10.33*28.91=6.20+17.07/56.73*43.91="
+    ],
+};

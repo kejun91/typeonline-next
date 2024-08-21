@@ -1,33 +1,69 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+address {font-style: normal;}
+body { background-color: #ffffff; color: #000000; font-size: 1em; font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; margin: 0;}
+caption {font-style: italic;}
+#comingTextBlock {font-family: 'Courier New', 'Andale Mono', Monaco, monospace; font-weight: normal; font-size: 1.5em;}
+#container {text-align: justify; font-size: 0.9em; font-family: 'Courier New', monospace; font-weight: bold; padding-bottom: 5px; line-height: 1.5em;}
+ #copyright {text-align: right; font-size: 0.7em;}
+#copyTextInputBox {margin-right:5%; width: 90%; height: 15%; margin-bottom: 5%; margin-top: 0%; font-size: 0.9em; font-family: 'Courier New', monospace; font-weight: bold;}
+#cppast {background-color: #ffffff; font-size: 1em; font-weight: normal; font-family: 'Courier New', Monaco, monospace; color: #76797c; }
+#cpfuture {background-color: #ffffff; font-size: 1em; font-weight: bold; font-family: 'Courier New', Monaco, monospace; color: #000000; }
+#cpfuture:first-letter {text-decoration: underline;}
+div.cp {background-color: #ffffff;}
+div.keyboard {text-align: center; padding-left: 25%; padding-right: 25%;}
+#ednaPic {border: 0px;}
+#exerciseBox {background-color: #ffcc66; /*#f1f1f1;*/ 
+ padding-bottom: 20px; padding-top: 10px; padding-left: 20px; padding-right: 20px; margin-left: 10px; margin-right: 10px; border-top: solid 1px /*#a1a5a9;*/#ff9933; border-bottom: solid 1px /*#a1a5a9;*/#ff9933; border-left: solid 1px /*#a1a5a9;*/#ff9933; border-right: solid 1px /*#a1a5a9;*/#ff9933;}
+#exerciseBox b {font-size: 1.2em;}
+#footer {margin-bottom: 0; margin-left:0; margin-right: 0; width: 100%; padding-top: 20px; text-align: center; clear: both;}
+#bottom {list-style-type: none;}
+#bottom li {display: inline; padding:1%}
+#frontMatter {width: 57%; padding-left:2% ; padding-right: 20%; font-size: 1em; color: #000000; margin-left:20%;}
+#frontMatter.p {font-size: 1em; line-height: 1.5em;}
+#frontMatter ul li {padding-bottom: 1em;}
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
+h2 {font-size: 1.1em; color: #000000;}
+h3 {font-size: 1.1em; color: #000000;}
+h4 {font-size: 1.1em; color: #000000; text-align: center;}
+#header { background-color: #3874bb; /*#000000;*/ padding-top: 1px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px;  }
+#header h1 { font-size: 2em; color:#ffffff; background-color: #3874bb; padding-top: 0px; padding-bottom: 0.5em; padding-left: 30px; padding-right: 30px; line-height: 1em;}
+#header h1 a {color: #ffffff; text-decoration:none; background-color: #3874bb;}
+#header h1 a span {font-style:italic; font-size: 0.7em; font-weight: normal;}
+hr {color: #000000; background-color: #000000;}
+#header h1 span {font-style:italic; font-size: 0.7em; font-weight: normal;}
+label {vertical-align: top;}
+/*#lynxLink {display:none;}*/
+#mainContentBlock {width: 74%; padding-right: 1%; margin-left:23%;}
+#mainContentBlock ol {list-style-type: decimal; line-height: 1.5em; font-family: Monaco, 'Courier New', monospace; font-weight: bold;}
+#map {font-size: 1em; margin-left:19%;}
+#map li.groupStart {padding-top: 1em;}
+menu {list-style-type: none;}
+menu li {display: inline;}
+#mistakeWas {font-size: 0.7em;}
+#numberTable tr.colouredRow {background-color: #ddaaff;}
+#numberTable {border-collapse: collapse; border-top: solid 1px #ff9933; border-bottom:solid 1px #ff9933; border-left:solid 1px #ff9933; border-right: solid 1px #ff9933;}
+p { text-align: justify; font-size: 1em; line-height: 1.5em;}
+p.smaller {font-size: 0.9em; line-height: 1.5em;}
+p.mistakes {font-size: 1em; line-height: 1.5em; font-weight: normal;}
+#sampleText {background-color: #ffffff; border-top: solid 1px /*#a1a5a9;*/#ff9933; border-bottom: solid 1px /*#a1a5a9;*/#ff9933; border-left: solid 1px /*#a1a5a9;*/#ff9933; border-right: solid 1px /*#a1a5a9;*/#ff9933; padding-left: 1%; padding-right: 1%;}
+#sideMenu {float: left; background-color: #ffffff; margin-left: 0; padding-left: 0; width: 18%; font-size: 0.9em;}
+#sideMenu li {padding-bottom: 0.33em;}
+#sideMenu li ul {padding-left: 0; margin-left: 0; padding-top:0.33em;}
+span.CPmistakeWas {font-size: 1em; font-weight: normal;}
+span.greyKey{text-align: center; font-weight: bold; background-color: #ddaaff;/*#e2e2e2;*/ border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-left: solid 1px #000000; border-right: solid 1px #000000; padding-left: 5px; padding-right: 5px;}
+span.blueKey{text-align: center; font-weight: bold; background-color: #aacc00;/*#b7cade;*/ border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-left: solid 1px #000000; border-right: solid 1px #000000; padding-left: 5px; padding-right: 5px;}
+table.bracket {width: 300px; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-left: solid 1px #000000; border-right: solid 1px #000000;}
+td.blue {background-color: #aacc00;/*#b7cade;*/ width: 27px; text-align: center; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-left: solid 1px #000000; border-right: solid 1px #000000;}
+td.grey {background-color: #ddaaff;/*#e2e2e2;*/ width: 27px; text-align: center; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-left: solid 1px #000000; border-right: solid 1px #000000;}
+td.plain {background-color: #ffffff; width: 27px; text-align: center; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-left: solid 1px #000000; border-right: solid 1px #000000;}
+td.spacer1 {width: 0px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;}
+td.spacer2 {width: 9px;}
+td.spacer3 {width: 18px;}
+td.spacer4 {width: 27px;}
+#typingBenefits li {padding-top:1em;}
+ul {font-size: 1em;}
+ul.keys {font-size: 1em; line-height: 1.5em;}
+#updated {text-align: center;}
+#userInputBox {font-family: 'Courier New', monospace; font-size: 1.5em; color: #000000;  background-color: #ffffff; width: 100%}
+#userPromptKey {font-family: 'Courier New', 'Andale Mono', Monaco, monospace; font-weight: bold; font-size: 1.8em;}
+#userErrorHint {font-size: 0.7em;}
+#wpm {font-size: 0.7em;}
