@@ -10,7 +10,7 @@ export default function AboutPage() {
             <h3>About us</h3>
             <p>
                 Typeonline was designed and implemented by Dave Bartlett, a web developer based in Hampshire, and began as a small
-                in-house project intended to do no more than keep the rust from the author's keyboard skills.</p>
+                in-house project intended to do no more than keep the rust from the author&apos;s keyboard skills.</p>
             <p>Discussions with family and friends convinced him that a free online typing tutorial would provide a useful
                 resource to a wider audience, and led to revisions of the initial typing practice routine into the full featured
                 offering of Typeonline.</p>
@@ -34,7 +34,7 @@ export default function AboutPage() {
                         <li> adequate, relevant and not excessive</li>
                         <li> accurate</li>
                         <li> not kept longer than necessary</li>
-                        <li> processed in accordance with the data subject's rights</li>
+                        <li> processed in accordance with the data subject&apos;s rights</li>
                         <li> secure</li>
                         <li> not transferred to countries without adequate protection.</li>
                     </ol>

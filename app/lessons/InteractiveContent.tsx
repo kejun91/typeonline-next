@@ -93,7 +93,7 @@ export default function InteractiveContent({ exerciseTexts, layoutType = 'US' }:
                         setSelectedExerciseText(exerciseTexts[Number(event.target.value)]);
                     }}>
                         <option value="0" disabled selected>Choose an Exercise</option>
-                        {exerciseTexts.map((t,index) => <option value={index}>Exercise {index + 1}</option>)}
+                        {exerciseTexts.map((t,index) => <option key={index} value={index}>Exercise {index + 1}</option>)}
                     </select>
                     <input type="button" name="tyonSubmitButton" id="tyonSubmitButton" value="Start" tabIndex={2} onClick={() => {
                         initializeTypingData();

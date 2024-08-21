@@ -14,9 +14,9 @@ function fetchSampleTextContent(practiceType:string, practiceText:string) {
             {/* <colgroup char="." align="char" span={8} ></colgroup> */}
             <tbody>
             {splitIntoChunks(practiceText.split(" "), 7).map((row:any,i:any) => {
-                return <tr className={i%2 === 1?"":"colouredRow"}>
-                    {row.map((cell:any) => {
-                        return <td>{cell}</td>;
+                return <tr key={i} className={i%2 === 1?"":"colouredRow"}>
+                    {row.map((cell:any, index:any) => {
+                        return <td key={index}>{cell}</td>;
                     })}
                 </tr>;
             })}

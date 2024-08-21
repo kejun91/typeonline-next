@@ -3,7 +3,7 @@ import React from "react";
 export const lessonContents:{[key:string]:JSX.Element} = {
     "lessons/keyboard/1": <>
         <p>The <strong>home row</strong> of the keyboard is the most important to the
-            touch-typist.</p><p>When at rest the typist's fingers are positioned,
+            touch-typist.</p><p>When at rest the typist&apos;s fingers are positioned,
                 lightly, on the <span className="greyKey">A</span>-<span className="greyKey">S</span>-<span className="greyKey">D</span>-<span className="greyKey">F</span> keys for the
             <strong>left hand</strong>, and the <span className="blueKey">J</span>-<span className="blueKey">K</span>-<span className="blueKey">L</span>-<span className="blueKey">;</span> keys
             for the <strong>right hand</strong>.</p>
@@ -62,7 +62,7 @@ export const lessonContents:{[key:string]:JSX.Element} = {
             begin to move without you consciously deciding which finger is
             associated with which key.</p>
         <p>You may find it helpful to <em>quietly</em> say the name of
-            the key as you strike it.</p><p>Don't let your mistakes cause you to
+            the key as you strike it.</p><p>Don&apos;t let your mistakes cause you to
                 lose heart, touch typing is a skill that can be learned by
                 practice.</p>
         <p>Repeat each exercise at least three times.</p>
@@ -126,7 +126,7 @@ export const lessonContents:{[key:string]:JSX.Element} = {
             adept at finding the right key without your conscious thought.</p>
         <p>Before you begin typing make sure you are sitting up straight, your feet flat on the floor. Keep your elbows close to your body, your wrists straight and your forearms level.</p>
         <p>As before, you may find it helpful to <em>quietly</em> say the name of
-            the key as you strike it. Don't let your mistakes cause you to
+            the key as you strike it. Don&apos;t let your mistakes cause you to
             lose heart, touch-typing is a skill that can be learned by
             practice.</p>
         <p>Repeat each exercise at least three times, and remember - <a href="/safety-first">take regular breaks</a>.</p>
@@ -190,7 +190,7 @@ export const lessonContents:{[key:string]:JSX.Element} = {
             awkward at first but it soon passes.</p>
         <p>Before you begin typing make sure you are sitting up straight, your feet flat on the floor. Keep your elbows close to your body, your wrists straight and your forearms level, and remember to <a href="/safety-first">take regular breaks</a>.</p>
         <p>Once again, you may find it helpful to <em>quietly</em> say the name of
-            the key as you strike it. Don't let your mistakes cause you to
+            the key as you strike it. Don&apos;t let your mistakes cause you to
             lose heart, touch-typing is a skill that can be learned by
             practice.</p>
         <p>Repeat each exercise at least three times.</p>
@@ -244,7 +244,7 @@ export const lessonContents:{[key:string]:JSX.Element} = {
         <br />
 
         <p><strong>The number row</strong> presents a unique challenge to the typist. It
-            is the furthest from the typist's fingers' resting position, the <strong>home row</strong>.
+            is the furthest from the typist&apos;s fingers&apos; resting position, the <strong>home row</strong>.
             These exercises will try to accustom you to the <em>range</em>
             of movement your fingers must achieve when dealing with a mixture of alpha-numeric
             keystrokes.</p>
@@ -264,7 +264,7 @@ export const lessonContents:{[key:string]:JSX.Element} = {
             associated with which key.</p>
         <p>Before you begin typing make sure you are sitting up straight, your feet flat on the floor. Keep your elbows close to your body, your wrists straight and your forearms level, and remember to <a href="/safety-first">take regular breaks</a>.</p>
         <p>As before, you may find it helpful to <em>quietly</em> say the name of
-            the key as you strike it. Don't let your mistakes cause you to
+            the key as you strike it. Don&apos;t let your mistakes cause you to
             lose heart, touch-typing is a skill that can be learned by
             practice.</p>
         <p>Repeat each exercise at least three times.</p>
@@ -284,7 +284,7 @@ export const lessonContents:{[key:string]:JSX.Element} = {
         <ul className="keys">
             <li>The <strong>left little finger</strong> will control the
                 <span className="greyKey">`</span> key, the <strong>right little
-                    finger</strong> will control the <span className="blueKey">-</span>, <span className="blueKey">=</span>, <span className="blueKey">[</span>, <span className="blueKey">]</span>, <span className="blueKey">'</span>, and <span className="blueKey">\</span> keys.</li>
+                    finger</strong> will control the <span className="blueKey">-</span>, <span className="blueKey">=</span>, <span className="blueKey">[</span>, <span className="blueKey">]</span>, <span className="blueKey">&apos;</span>, and <span className="blueKey">\</span> keys.</li>
         </ul>
         <br />
         <div className="keyboard">
@@ -303,7 +303,7 @@ export const lessonContents:{[key:string]:JSX.Element} = {
                         <td className="spacer4" headers="leftLittle2lower"></td><td className="grey" headers="leftLittlelower">q</td><td className="grey" headers="leftRinglower">w</td><td className="grey" headers="leftMiddlelower">e</td><td className="grey" headers="leftIndex1lower">r</td><td className="grey" headers="leftIndex2lower">t</td><td className="blue" headers="rightIndex2lower">y</td><td className="blue" headers="rightIndex1lower">u</td><td className="blue" headers="rightMiddlelower">i</td><td className="blue" headers="rightRinglower">o</td><td className="blue" headers="rightLittlelower">p</td><td className="blue" headers="rightLittle2lower">[</td><td className="blue" headers="rightLittle3lower">]</td>
                     </tr>
                     <tr>
-                        <td className="spacer4" headers="leftLittle2lower"></td><td className="grey" headers="leftLittlelower">a</td><td className="grey" headers="leftRinglower">s</td><td className="grey" headers="leftMiddlelower">d</td><td className="grey" headers="leftIndex1lower">f</td><td className="grey" headers="leftIndex2lower">g</td><td className="blue" headers="rightIndex2lower">h</td><td className="blue" headers="rightIndex1lower">j</td><td className="blue" headers="rightMiddlelower">k</td><td className="blue" headers="rightRinglower">l</td><td className="blue" headers="rightLittlelower">;</td><td className="blue" headers="rightLittle2lower">'</td><td className="blue" headers="rightLittle3lower">\</td>
+                        <td className="spacer4" headers="leftLittle2lower"></td><td className="grey" headers="leftLittlelower">a</td><td className="grey" headers="leftRinglower">s</td><td className="grey" headers="leftMiddlelower">d</td><td className="grey" headers="leftIndex1lower">f</td><td className="grey" headers="leftIndex2lower">g</td><td className="blue" headers="rightIndex2lower">h</td><td className="blue" headers="rightIndex1lower">j</td><td className="blue" headers="rightMiddlelower">k</td><td className="blue" headers="rightRinglower">l</td><td className="blue" headers="rightLittlelower">;</td><td className="blue" headers="rightLittle2lower">&apos;</td><td className="blue" headers="rightLittle3lower">\</td>
                     </tr>
                     <tr>
                         <td className="grey" headers="leftLittle2lower">`</td><td className="grey" headers="leftLittlelower">z</td><td className="grey" headers="leftRinglower">x</td><td className="grey" headers="leftMiddlelower">c</td><td className="grey" headers="leftIndex1lower">v</td><td className="grey" headers="leftIndex2lower">b</td><td className="blue" headers="rightIndex2">n</td><td className="blue" headers="rightIndex1lower">m</td><td className="blue" headers="rightMiddlelower">,</td><td className="blue" headers="rightRinglower">.</td><td className="blue" headers="rightLittlelower">/</td><td className="spacer4" headers="rightLittle2lower"></td><td className="spacer4" headers="rightLittle3lower"></td>
@@ -345,7 +345,7 @@ export const lessonContents:{[key:string]:JSX.Element} = {
             associated with which key.</p>
         <p>Before you begin typing make sure you are sitting up straight, your feet flat on the floor. Keep your elbows close to your body, your wrists straight and your forearms level, and remember to <a href="/safety-first">take regular breaks</a>.</p>
         <p>As always, you may find it helpful to <em>quietly</em> say the name of
-            the key as you strike it. Don't let your mistakes cause you to
+            the key as you strike it. Don&apos;t let your mistakes cause you to
             lose heart, touch-typing is a skill that can be learned by
             practice.</p>
         <p>Repeat each exercise at least three times.</p>
@@ -376,7 +376,7 @@ export const lessonContents:{[key:string]:JSX.Element} = {
                         <td className="spacer4" headers="leftLittle2lower"></td><td className="grey" headers="leftLittlelower">q</td><td className="grey" headers="leftRinglower">w</td><td className="grey" headers="leftMiddlelower">e</td><td className="grey" headers="leftIndex1lower">r</td><td className="grey" headers="leftIndex2lower">t</td><td className="blue" headers="rightIndex2lower">y</td><td className="blue" headers="rightIndex1lower">u</td><td className="blue" headers="rightMiddlelower">i</td><td className="blue" headers="rightRinglower">o</td><td className="blue" headers="rightLittlelower">p</td><td className="blue" headers="rightLittle2lower">[</td><td className="blue" headers="rightLittle3lower">]</td>
                     </tr>
                     <tr>
-                        <td className="spacer4" headers="leftLittle2lower"></td><td className="grey" headers="leftLittlelower">a</td><td className="grey" headers="leftRinglower">s</td><td className="grey" headers="leftMiddlelower">d</td><td className="grey" headers="leftIndex1lower">f</td><td className="grey" headers="leftIndex2lower">g</td><td className="blue" headers="rightIndex2lower">h</td><td className="blue" headers="rightIndex1lower">j</td><td className="blue" headers="rightMiddlelower">k</td><td className="blue" headers="rightRinglower">l</td><td className="blue" headers="rightLittlelower">;</td><td className="blue" headers="rightLittle2lower">'</td><td className="blue" headers="rightLittle3lower">#</td>
+                        <td className="spacer4" headers="leftLittle2lower"></td><td className="grey" headers="leftLittlelower">a</td><td className="grey" headers="leftRinglower">s</td><td className="grey" headers="leftMiddlelower">d</td><td className="grey" headers="leftIndex1lower">f</td><td className="grey" headers="leftIndex2lower">g</td><td className="blue" headers="rightIndex2lower">h</td><td className="blue" headers="rightIndex1lower">j</td><td className="blue" headers="rightMiddlelower">k</td><td className="blue" headers="rightRinglower">l</td><td className="blue" headers="rightLittlelower">;</td><td className="blue" headers="rightLittle2lower">&apos;</td><td className="blue" headers="rightLittle3lower">#</td>
                     </tr>
                     <tr>
                         <td className="grey" headers="leftLittle2lower">\</td><td className="grey" headers="leftLittlelower">z</td><td className="grey" headers="leftRinglower">x</td><td className="grey" headers="leftMiddlelower">c</td><td className="grey" headers="leftIndex1lower">v</td><td className="grey" headers="leftIndex2lower">b</td><td className="blue" headers="rightIndex2lower">n</td><td className="blue" headers="rightIndex1lower">m</td><td className="blue" headers="rightMiddlelower">,</td><td className="blue" headers="rightRinglower">.</td><td className="blue" headers="rightLittlelower">/</td><td className="spacer4" headers="rightLittle2lower"></td><td className="spacer4" headers="rightLittle3lower"></td>
@@ -418,7 +418,7 @@ export const lessonContents:{[key:string]:JSX.Element} = {
             associated with which key.</p>
 
         <p>As always, you may find it helpful to <em>quietly</em> say the name of
-            the key as you strike it. Don't let your mistakes cause you to
+            the key as you strike it. Don&apos;t let your mistakes cause you to
             lose heart, touch-typing is a skill that can be learned by
             practice.</p>
         <p>Repeat each exercise at least three times.</p>
@@ -449,7 +449,7 @@ export const lessonContents:{[key:string]:JSX.Element} = {
                     <td className="spacer4"></td><td className="grey">q</td><td className="grey">w</td><td className="grey">e</td><td className="grey">r</td><td className="grey">t</td><td className="blue">y</td><td className="blue">u</td><td className="blue">i</td><td className="blue">o</td><td className="blue">p</td><td className="blue">[</td><td className="blue">]</td>
                 </tr>
                 <tr>
-                    <td className="spacer4"></td><td className="grey">a</td><td className="grey">s</td><td className="grey">d</td><td className="grey">f</td><td className="grey">g</td><td className="blue">h</td><td className="blue">j</td><td className="blue">k</td><td className="blue">l</td><td className="blue">;</td><td className="blue">'</td><td className="blue">\</td>
+                    <td className="spacer4"></td><td className="grey">a</td><td className="grey">s</td><td className="grey">d</td><td className="grey">f</td><td className="grey">g</td><td className="blue">h</td><td className="blue">j</td><td className="blue">k</td><td className="blue">l</td><td className="blue">;</td><td className="blue">&apos;</td><td className="blue">\</td>
                 </tr>
                 <tr>
                     <td className="grey">`</td><td className="grey">z</td><td className="grey">x</td><td className="grey">c</td><td className="grey">v</td><td className="grey">b</td><td className="blue">n</td><td className="blue">m</td><td className="blue">,</td><td className="blue">.</td><td className="blue">/</td><td className="spacer4"></td><td className="spacer4"></td>
@@ -491,14 +491,14 @@ export const lessonContents:{[key:string]:JSX.Element} = {
             begin to move without you consciously deciding which finger is
             associated with which key.</p>
         <p>As always, you may find it helpful to <em>quietly</em> say the name of
-            the key as you strike it. Don't let your mistakes cause you to
+            the key as you strike it. Don&apos;t let your mistakes cause you to
             lose heart, touch-typing is a skill that can be learned by
             practice.</p>
         <p>Repeat each exercise at least three times.</p>
     </>,
     "lessons/number-pad/1":<>
         <p>The <strong>number pad</strong> keys are arranged in four columns and five rows. In our first lesson we will cover the <span className="greyKey">4</span>-<span className="blueKey">5</span>-<span className="greyKey">6</span>-<span className="blueKey">+</span> row.</p>
-        <p>When at rest the fingers of the typist's <strong>right hand</strong> are positioned,
+        <p>When at rest the fingers of the typist&apos;s <strong>right hand</strong> are positioned,
             lightly, on the <span className="greyKey">4</span>-<span className="blueKey">5</span>-<span className="greyKey">6</span>-<span className="blueKey">+</span> keys.</p>
         <ul className="keys">
             <li>The <strong>right index
@@ -551,7 +551,7 @@ export const lessonContents:{[key:string]:JSX.Element} = {
             begin to move without you consciously deciding which finger is
             associated with which key.</p>
         <p>You may find it helpful to <em>quietly</em> say the name of
-            the key as you strike it.</p><p>Don't let your mistakes cause you to
+            the key as you strike it.</p><p>Don&apos;t let your mistakes cause you to
                 lose heart, touch typing is a skill that can be learned by
                 practice.</p>
         <p>Repeat each exercise at least three times.</p>
@@ -598,7 +598,7 @@ export const lessonContents:{[key:string]:JSX.Element} = {
             begin to move without you consciously deciding which finger is
             associated with which key.</p>
         <p>You may find it helpful to <em>quietly</em> say the name of
-            the key as you strike it.</p><p>Don't let your mistakes cause you to
+            the key as you strike it.</p><p>Don&apos;t let your mistakes cause you to
                 lose heart, touch typing is a skill that can be learned by
                 practice.</p>
         <p>Repeat each exercise at least three times.</p>
@@ -651,7 +651,7 @@ export const lessonContents:{[key:string]:JSX.Element} = {
             begin to move without you consciously deciding which finger is
             associated with which key.</p>
         <p>You may find it helpful to <em>quietly</em> say the name of
-            the key as you strike it.</p><p>Don't let your mistakes cause you to
+            the key as you strike it.</p><p>Don&apos;t let your mistakes cause you to
                 lose heart, touch typing is a skill that can be learned by
                 practice.</p>
         <p>Repeat each exercise at least three times.</p>
@@ -706,7 +706,7 @@ export const lessonContents:{[key:string]:JSX.Element} = {
             begin to move without you consciously deciding which finger is
             associated with which key.</p>
         <p>You may find it helpful to <em>quietly</em> say the name of
-            the key as you strike it.</p><p>Don't let your mistakes cause you to
+            the key as you strike it.</p><p>Don&apos;t let your mistakes cause you to
                 lose heart, touch typing is a skill that can be learned by
                 practice.</p>
         <p>Repeat each exercise at least three times.</p>
@@ -756,7 +756,7 @@ export const lessonContents:{[key:string]:JSX.Element} = {
             begin to move without you consciously deciding which finger is
             associated with which key.</p>
         <p>You may find it helpful to <em>quietly</em> say the name of
-            the key as you strike it.</p><p>Don't let your mistakes cause you to
+            the key as you strike it.</p><p>Don&apos;t let your mistakes cause you to
                 lose heart, touch typing is a skill that can be learned by
                 practice.</p>
         <p>Repeat each exercise at least three times.</p>
@@ -807,7 +807,7 @@ export const lessonContents:{[key:string]:JSX.Element} = {
             begin to move without you consciously deciding which finger is
             associated with which key.</p>
         <p>You may find it helpful to <em>quietly</em> say the name of
-            the key as you strike it.</p><p>Don't let your mistakes cause you to
+            the key as you strike it.</p><p>Don&apos;t let your mistakes cause you to
                 lose heart, touch typing is a skill that can be learned by
                 practice.</p>
         <p>Repeat each exercise at least three times.</p>
