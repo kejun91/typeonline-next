@@ -4,7 +4,7 @@ caption {font-style: italic;}
 #comingTextBlock {font-family: 'Courier New', 'Andale Mono', Monaco, monospace; font-weight: normal; font-size: 1.5em;}
 #container {text-align: justify; font-size: 0.9em; font-family: 'Courier New', monospace; font-weight: bold; padding-bottom: 5px; line-height: 1.5em;}
  #copyright {text-align: right; font-size: 0.7em;}
-#copyTextInputBox {margin-right:5%; width: 90%; height: 15%; margin-bottom: 5%; margin-top: 0%; font-size: 0.9em; font-family: 'Courier New', monospace; font-weight: bold;}
+#copyTextInputBox {width: 100%; height: 15%; font-size: 0.9em; font-family: 'Courier New', monospace; font-weight: bold;}
 #cppast {background-color: #ffffff; font-size: 1em; font-weight: normal; font-family: 'Courier New', Monaco, monospace; color: #76797c; }
 #cpfuture {background-color: #ffffff; font-size: 1em; font-weight: bold; font-family: 'Courier New', Monaco, monospace; color: #000000; }
 #cpfuture:first-letter {text-decoration: underline;}
@@ -47,7 +47,7 @@ p.mistakes {font-size: 1em; line-height: 1.5em; font-weight: normal;}
 #sampleText {background-color: #ffffff; border-top: solid 1px /*#a1a5a9;*/#ff9933; border-bottom: solid 1px /*#a1a5a9;*/#ff9933; border-left: solid 1px /*#a1a5a9;*/#ff9933; border-right: solid 1px /*#a1a5a9;*/#ff9933; padding-left: 1%; padding-right: 1%;}
 #sideMenu {float: left; background-color: #ffffff; margin-left: 0; padding-left: 0; width: 18%; font-size: 0.9em;}
 #sideMenu li {padding-bottom: 0.33em;}
-#sideMenu li ul {padding-left: 0; margin-left: 0; padding-top:0.33em;}
+#sideMenu li ul {padding-top:0.33em;}
 span.CPmistakeWas {font-size: 1em; font-weight: normal;}
 span.greyKey{text-align: center; font-weight: bold; background-color: #ddaaff;/*#e2e2e2;*/ border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-left: solid 1px #000000; border-right: solid 1px #000000; padding-left: 5px; padding-right: 5px;}
 span.blueKey{text-align: center; font-weight: bold; background-color: #aacc00;/*#b7cade;*/ border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-left: solid 1px #000000; border-right: solid 1px #000000; padding-left: 5px; padding-right: 5px;}

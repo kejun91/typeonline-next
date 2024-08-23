@@ -28,6 +28,7 @@ export default function InteractiveContent({ exerciseTexts, layoutType = 'US' }:
     const [userPromptPrefix, setUserPromptPrefix] = useState("");
     const [userPromptKey, setUserPromptKey] = useState("");
     const [typingActivated, setTypingActivated] = useState(false);
+    const [startButtonDisabled, setStartButtonDisabled] = useState(false);
 
     useEffect(() => {
         if (selectExercisesRef.current) {
@@ -78,25 +79,32 @@ export default function InteractiveContent({ exerciseTexts, layoutType = 'US' }:
         setUserPromptPrefix("Please type ...");
         setUserPromptKey(selectedExerciseText[0]);
         setUserErrorHint(getFingerHintMessage(selectedExerciseText[0]));
-        setTypingActivated(true);
+        setTypingActivated(false);
+    };
 
-        if (inputRef.current) {
+    useEffect(() => {
+        initializeTypingData();
+        setStartButtonDisabled(false);
+    },[selectedExerciseText]);
+
+    useEffect(() => {
+        if (inputRef.current && !inputRef.current.disabled) {
             inputRef.current.focus();
         }
-    };
+    },[typingActivated]);
 
     return <div id="exerciseBox">
             <form id="theForm" >
                 <p>
-                    <label htmlFor="possExercises">Exercises 1-{exerciseTexts.length}: </label>
+                    <label htmlFor="possExercises">Choose an Exercise: </label>
                     <select name="exercises" id="possExercises" tabIndex={1} ref={selectExercisesRef} onChange={(event) => {
                         setSelectedExerciseText(exerciseTexts[Number(event.target.value)]);
                     }}>
-                        <option value="0" disabled selected>Choose an Exercise</option>
                         {exerciseTexts.map((t,index) => <option key={index} value={index}>Exercise {index + 1}</option>)}
                     </select>
-                    <input type="button" name="tyonSubmitButton" id="tyonSubmitButton" value="Start" tabIndex={2} onClick={() => {
-                        initializeTypingData();
+                    <input type="button" name="tyonSubmitButton" id="tyonSubmitButton" value="Start" tabIndex={2} disabled={startButtonDisabled} onClick={() => {
+                        setTypingActivated(true);
+                        setStartButtonDisabled(true);
                     }}/>
                 </p>
             </form>
@@ -115,9 +123,11 @@ export default function InteractiveContent({ exerciseTexts, layoutType = 'US' }:
             <span id="repeatOptionBox">
                 {includeRepeatBox && <input type="button" id="repeatButton" name="repeatButton" value="Repeat" onClick={() => {
                     initializeTypingData();
+                    setTypingActivated(true);
                 }} onKeyDown={(event) => {
                     if (event.key === "Enter") {
                         initializeTypingData();
+                        setTypingActivated(true);
                     }
                 }} />}
             </span>

@@ -1,9 +1,5 @@
 const pages = [
     {
-        id: "safety-first",
-        title: "Safety first"
-    },
-    {
         id: "typing-lessons",
         title: "Keyboard lessons",
         children: [
@@ -116,6 +112,10 @@ const pages = [
                 title: "Test with words and numbers"
             }
         ]
+    },
+    {
+        id: "safety-first",
+        title: "Safety first"
     },
     {
         id: "about",

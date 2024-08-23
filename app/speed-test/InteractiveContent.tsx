@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { splitIntoChunks } from "../../utils/common";
 import { fetchContent } from "@/utils/contents";
 
@@ -90,6 +90,8 @@ interface Props {
 
 export default function InteractiveContent({ practiceType }: Props){
 
+    const textAreaRef = useRef<HTMLTextAreaElement>(null);
+
     const [practiceText, setPracticeText] = useState("");
     const [sampleTextContent, setSampleTextContent] = useState(<></>);
     const [testChanged, setTestChanged] = useState(false);
@@ -104,6 +106,12 @@ export default function InteractiveContent({ practiceType }: Props){
         setPracticeText(text);
         setSampleTextContent(fetchSampleTextContent(practiceType, text));
     }, [testChanged]);
+
+    useEffect(() => {
+        if (textAreaRef.current && !textAreaRef.current.disabled) {
+            textAreaRef.current.focus();
+        }
+    }, [startTime]);
 
     return <>
         <div id="exerciseBox">
@@ -154,7 +162,7 @@ export default function InteractiveContent({ practiceType }: Props){
                     {sampleTextContent}
                     <br />
                     <span id="customerInput">
-                        <textarea rows={5} id="copyTextInputBox" name="copyTextInputBox" style={{ fontSize: "1em", fontWeight: "normal" }} placeholder="type here" value={inputValue} onChange={(e) => setInputValue(e.target.value)} disabled={startTime === null}/>
+                        <textarea ref={textAreaRef} rows={5} id="copyTextInputBox" name="copyTextInputBox" style={{ fontSize: "1em", fontWeight: "normal" }} placeholder="type here" value={inputValue} onChange={(e) => setInputValue(e.target.value)} disabled={startTime === null}/>
                     </span>
                 </div>
             </form>

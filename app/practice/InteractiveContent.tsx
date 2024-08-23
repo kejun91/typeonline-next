@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { splitIntoChunks } from "../../utils/common";
 import { fetchContent } from "../../utils/contents";
 
@@ -89,12 +89,18 @@ interface Props {
 }
 
 export default function InteractiveContent({ practiceType }: Props){
-    const practiceText:string = fetchContent(practiceType);
-    const sampleTextContent = fetchSampleTextContent(practiceType, practiceText);
-
+    const [practiceText, setPracticeText] = useState("");
+    const [sampleTextContent, setSampleTextContent] = useState(<></>);
+    const [testChanged, setTestChanged] = useState(false);
     const [result, setResult] = useState<JSX.Element[]>([]);
     const [inputValue, setInputValue] = useState("");
     const [formattedInputValue, setFormattedInputValue] = useState<JSX.Element[]|null>(null);
+
+    useEffect(() => {
+        const text = fetchContent(practiceType);
+        setPracticeText(text);
+        setSampleTextContent(fetchSampleTextContent(practiceType, text));
+    },[testChanged]);
 
     return <>
         <div id="exerciseBox">
@@ -112,7 +118,7 @@ export default function InteractiveContent({ practiceType }: Props){
                         <input type="submit" name="submitButton" value="next practice text" onClick={(event) => {
                             setInputValue("");
                             setFormattedInputValue(null);
-                            // set texts
+                            setTestChanged(!testChanged);
                             event.preventDefault();
                         }} />
                     </span>
