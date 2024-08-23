@@ -1,9 +1,5 @@
 export const pages = [
     {
-        id: "home",
-        title: "Home"
-    },
-    {
         id: "safety-first",
         title: "Safety first"
     },

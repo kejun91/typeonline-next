@@ -2,11 +2,7 @@
 
 import React, { useState } from "react";
 import { splitIntoChunks } from "../../utils/common";
-
-const practiceTexts:{[key:string]:string} = {
-    "number":"392.98* 504.48+ 260.78- 411.73+ 715.60+ 24.65- 743.68+ 219.15+ 821.53+ 779.67- 366.11- 415.55- 373.26+ 28.55+ 258.75- 711.56- 419.25+ 660.80- 781.56+ 736.97+ 185.49- 185.46/ 892.79+ 295.70- 732.21+ 255.99+ 849.45- 671.03+ 963.66- 703.01+ 308.49+ 871.94- 629.51- 405.56+ 604.16+ 907.13- 901.95+ 716.63- 495.00+ 509.08+ 86.60- 324.44/ 434.40/ 157.66+ 692.85* 619.37+ 274.15+ 726.87/ 24.05+",
-    "word":`It is an ancient Mariner, And he stoppeth one of three. "By thy long grey beard and glittering eye, Now wherefore stopp'st thou me? The bridegroom's doors are opened wide, And I am next of kin; The guests are met, the feast is set: May'st hear the merry din." He holds him with his skinny hand, "There was a ship," quoth he. "Hold off! unhand me, grey-beard loon!" Eftsoons his hand dropt he.`
-};
+import { fetchContent } from "@/utils/contents";
 
 function fetchSampleTextContent(practiceType:string, practiceText:string) {
     if (practiceType === 'number') {
@@ -93,8 +89,8 @@ interface Props {
 }
 
 export default function InteractiveContent({ practiceType }: Props){
-    const practiceText:string = practiceTexts[practiceType];
-    const sampleTextContent = fetchSampleTextContent(practiceType, practiceTexts[practiceType]);
+    const practiceText:string = fetchContent(practiceType);
+    const sampleTextContent = fetchSampleTextContent(practiceType, practiceText);
 
     const [result, setResult] = useState<JSX.Element[]>([]);
     const [inputValue, setInputValue] = useState("");
