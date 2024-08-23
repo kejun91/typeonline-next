@@ -21,7 +21,7 @@ export default function RootLayout({
         <html lang="en">
             <body >
                 <div id="header">
-                    <h1><span>learn to type online...</span><br/><a href="/">typeonline.uk</a></h1>
+                    <h1><a href="/"><span>learn to type online...</span><br/>typeonline.uk</a></h1>
                 </div>
                 {children}
                 <div id="footer">

@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { splitIntoChunks } from "../../utils/common";
 import { fetchContent } from "@/utils/contents";
 
@@ -18,7 +18,7 @@ function fetchSampleTextContent(practiceType:string, practiceText:string) {
             })}
             </tbody>
         </table>;
-    } else if (practiceType === 'word') {
+    } else if (['word','word-number'].includes(practiceType)) {
         return <p id="sampleText">{practiceText}</p>;
     }
 
@@ -89,14 +89,21 @@ interface Props {
 }
 
 export default function InteractiveContent({ practiceType }: Props){
-    const practiceText:string = fetchContent(practiceType);
-    const sampleTextContent = fetchSampleTextContent(practiceType, practiceText);
 
+    const [practiceText, setPracticeText] = useState("");
+    const [sampleTextContent, setSampleTextContent] = useState(<></>);
+    const [testChanged, setTestChanged] = useState(false);
     const [result, setResult] = useState<JSX.Element[]>([]);
     const [inputValue, setInputValue] = useState("");
     const [formattedInputValue, setFormattedInputValue] = useState<JSX.Element[]|null>(null);
     const [startTime, setStartTime] = useState<number|null>(null);
     const [wpm, setWpm] = useState<number|null>(null);
+
+    useEffect(() => {
+        const text = fetchContent(practiceType);
+        setPracticeText(text);
+        setSampleTextContent(fetchSampleTextContent(practiceType, text));
+    }, [testChanged]);
 
     return <>
         <div id="exerciseBox">
@@ -129,7 +136,7 @@ export default function InteractiveContent({ practiceType }: Props){
                             setFormattedInputValue(null);
                             setStartTime(null);
                             setWpm(null);
-                            // set texts
+                            setTestChanged(!testChanged);
                             event.preventDefault();
                         }} />
                     </span>
