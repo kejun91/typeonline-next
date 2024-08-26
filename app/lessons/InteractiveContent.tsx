@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { getFingerHintMessage, isAllowedChar } from "../utils/typing";
 import React from "react";
 
@@ -67,7 +67,7 @@ export default function InteractiveContent({ exerciseTexts, layoutType = 'US' }:
         }
     }
 
-    const initializeTypingData = () => {
+    const initializeTypingData = useCallback(() => {
         setStartTimestamp(null);
         setMistakes([]);
         setWpm(null);
@@ -78,14 +78,14 @@ export default function InteractiveContent({ exerciseTexts, layoutType = 'US' }:
         setRemainingText(selectedExerciseText.slice(1).substring(0,10));
         setUserPromptPrefix("Please type ...");
         setUserPromptKey(selectedExerciseText[0]);
-        setUserErrorHint(getFingerHintMessage(selectedExerciseText[0]));
+        setUserErrorHint(getFingerHintMessage(selectedExerciseText[0], layoutType));
         setTypingActivated(false);
-    };
+    }, [selectedExerciseText, layoutType]);
 
     useEffect(() => {
         initializeTypingData();
         setStartButtonDisabled(false);
-    },[selectedExerciseText]);
+    },[initializeTypingData]);
 
     useEffect(() => {
         if (inputRef.current && !inputRef.current.disabled) {
