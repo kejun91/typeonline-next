@@ -1,5 +1,5 @@
 import React from "react";
-import SideNavigation from "../../utils/SideNavigation";
+import SideNavigation from "../SideNavigation";
 import InteractiveContent from "./InteractiveContent";
 import { exerciseTexts } from "./ExerciseTexts";
 import { lessonContents } from "./LessonContents";

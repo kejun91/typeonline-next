@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react";
-import { getFingerHintMessage, isAllowedChar } from "../../utils/typing";
+import { getFingerHintMessage, isAllowedChar } from "../utils/typing";
 import React from "react";
 
 interface ExerciseInteractiveContentProps {

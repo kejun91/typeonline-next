@@ -1,5 +1,5 @@
 import React from "react";
-import SideNavigation from "../../utils/SideNavigation";
+import SideNavigation from "../SideNavigation";
 import { speedTestContents } from "./SpeedTestContents";
 import InteractiveContent from "./InteractiveContent";
 

@@ -1,8 +1,8 @@
 "use client"
 
 import React, { useEffect, useRef, useState } from "react";
-import { splitIntoChunks } from "../../utils/common";
-import { fetchContent } from "@/utils/contents";
+import { splitIntoChunks } from "../utils/common";
+import { fetchContent } from "@/app/utils/contents";
 
 function fetchSampleTextContent(practiceType:string, practiceText:string) {
     if (practiceType === 'number') {
