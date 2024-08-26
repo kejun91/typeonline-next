@@ -1,4 +1,4 @@
-import SideNavigation from "@/utils/SideNavigation";
+import SideNavigation from "../SideNavigation";
 
 export const runtime = 'edge';
 
