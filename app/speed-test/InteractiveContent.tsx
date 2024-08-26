@@ -105,7 +105,7 @@ export default function InteractiveContent({ practiceType }: Props){
         const text = fetchContent(practiceType);
         setPracticeText(text);
         setSampleTextContent(fetchSampleTextContent(practiceType, text));
-    }, [testChanged]);
+    }, [testChanged, practiceType]);
 
     useEffect(() => {
         if (textAreaRef.current && !textAreaRef.current.disabled) {

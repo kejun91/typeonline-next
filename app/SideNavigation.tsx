@@ -127,7 +127,7 @@ interface SideNavigationProps {
     pageId:string;
 }
 
-export default ({ pageId }: SideNavigationProps) => {
+export default function SideNavigation({ pageId }: SideNavigationProps) {
     const isSiteMap = pageId === 'site-map';
     const navItems:any[] = [];
     pages.forEach(p => {
