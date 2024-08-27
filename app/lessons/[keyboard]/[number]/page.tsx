@@ -1,7 +1,9 @@
 import React from "react";
-import Lesson from "../../Lesson";
 import { notFound } from "next/navigation";
 import { titles } from "../../Titles";
+import MainContent from "@/app/MainContent";
+import InteractiveContent from "../../InteractiveContent";
+import { exerciseTexts } from "../../ExerciseTexts";
 
 type Props = {
     params: {
@@ -15,10 +17,10 @@ export default function WithSameLayout({ params }: Props) {
     const isValidNumPadPage = params.keyboard === 'number-pad' && ['1','2'].includes(params.number);
 
     if (isValidKeyboardPage || isValidNumPadPage) {
-        return <Lesson 
-            pageId={"lessons/" + params.keyboard + "/" + params.number} 
-            title={ titles[params.keyboard] + " - lesson " + params.number} 
-        />
+        const pageId = "lessons/" + params.keyboard + "/" + params.number;
+        return <MainContent pageId={pageId} title={titles[params.keyboard] + " - lesson " + params.number} >
+            <InteractiveContent exerciseTexts={exerciseTexts[pageId]} />
+        </MainContent>;
     } else {
         notFound();
     }

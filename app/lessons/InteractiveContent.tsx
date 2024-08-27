@@ -6,7 +6,7 @@ import React from "react";
 
 interface ExerciseInteractiveContentProps {
     exerciseTexts: string[];
-    layoutType: string|undefined;
+    layoutType?: string|undefined;
 }
 
 export default function InteractiveContent({ exerciseTexts, layoutType = 'US' }: ExerciseInteractiveContentProps){
