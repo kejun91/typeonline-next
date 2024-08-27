@@ -1,27 +1,29 @@
 import React from "react";
 
+import Key from "../components/key";
+
 export const lessonContents:{[key:string]:JSX.Element} = {
     "lessons/keyboard/1": <>
         <p>The <strong>home row</strong> of the keyboard is the most important to the
             touch-typist.</p><p>When at rest the typist&apos;s fingers are positioned,
-                lightly, on the <span className="greyKey">A</span>-<span className="greyKey">S</span>-<span className="greyKey">D</span>-<span className="greyKey">F</span> keys for the
-            <strong>left hand</strong>, and the <span className="blueKey">J</span>-<span className="blueKey">K</span>-<span className="blueKey">L</span>-<span className="blueKey">;</span> keys
+                lightly, on the <Key side={"left"} value={"A"} />-<Key side={"left"} value={"S"} />-<Key side={"left"} value={"D"} />-<Key side={"left"} value={"F"} /> keys for the
+            <strong>left hand</strong>, and the <Key side={"right"} value={"J"} />-<Key side={"right"} value={"K"} />-<Key side={"right"} value={"L"} />-<Key side={"right"} value={";"} /> keys
             for the <strong>right hand</strong>.</p>
         <ul className="keys">
             <li>The <strong>left index finger</strong> will control the
-                <span className="greyKey">F</span> and <span className="greyKey">G</span> keys, the <strong>right index
-                    finger</strong> will control the <span className="blueKey">J</span> and <span className="blueKey">H</span>
+                <Key side={"left"} value={"F"} /> and <Key side={"left"} value={"G"} /> keys, the <strong>right index
+                    finger</strong> will control the <Key side={"right"} value={"J"} /> and <Key side={"right"} value={"H"} />
                 keys.</li>
             <li>The <strong>left middle finger</strong> will control the
-                <span className="greyKey">D</span> key, the <strong>right middle
-                    finger</strong> will control the <span className="blueKey">K</span> key.</li>
+                <Key side={"left"} value={"D"} /> key, the <strong>right middle
+                    finger</strong> will control the <Key side={"right"} value={"K"} /> key.</li>
             <li>The <strong>left ring finger</strong> will control the
-                <span className="greyKey">S</span> key, the <strong>right ring
-                    finger</strong> will control the <span className="blueKey">L</span> key.</li>
+                <Key side={"left"} value={"S"} /> key, the <strong>right ring
+                    finger</strong> will control the <Key side={"right"} value={"L"} /> key.</li>
             <li>The <strong>left little finger</strong> will control the
-                <span className="greyKey">A</span> key, the <strong>right little
-                    finger</strong> will control the <span className="blueKey">;</span> key.</li>
-            <li>The <span className="blueKey">spacebar</span> is controlled by the
+                <Key side={"left"} value={"A"} /> key, the <strong>right little
+                    finger</strong> will control the <Key side={"right"} value={";"} /> key.</li>
+            <li>The <Key side={"right"} value={"spacebar"} /> is controlled by the
                 <strong>right thumb</strong>.</li>
         </ul>
         <br />
@@ -44,14 +46,14 @@ export const lessonContents:{[key:string]:JSX.Element} = {
             MF = middle finger,
             IF = index finger</label>
         <br />
-        <p>The <span className="greyKey">F</span> and <span className="blueKey">J</span> keys often
+        <p>The <Key side={"left"} value={"F"} /> and <Key side={"right"} value={"J"} /> keys often
             have <strong>small raised bumps</strong> on their tops, a
             tactile aid for the typist.</p>
         <p>The locations of all the other keys on the keyboard are learned
             in relation to these <strong>home keys</strong> so the touch-typist must be able
             to find the <strong>home keys</strong> by touch.</p>
         <p>Using the <strong>raised
-            bumps</strong> on the <span className="greyKey">F</span> and <span className="blueKey">J</span>
+            bumps</strong> on the <Key side={"left"} value={"F"} /> and <Key side={"right"} value={"J"} />
             keys as a guide, see if you can put your fingers on
             the <strong>home row</strong> correctly, <em>without looking at the keyboard</em>. No
             peeking.</p>
@@ -68,7 +70,7 @@ export const lessonContents:{[key:string]:JSX.Element} = {
         <p>Repeat each exercise at least three times.</p>
     </>,
     "lessons/keyboard/2":<>
-        <p>The third row of the keyboard is a celebrity in our midst. The <span className="greyKey">Q</span>-<span className="greyKey">W</span>-<span className="greyKey">E</span>-<span className="greyKey">R</span>-<span className="greyKey">T</span>-<span className="blueKey">Y</span> row.</p>
+        <p>The third row of the keyboard is a celebrity in our midst. The <Key side={"left"} value={"Q"} />-<Key side={"left"} value={"W"} />-<Key side={"left"} value={"E"} />-<Key side={"left"} value={"R"} />-<Key side={"left"} value={"T"} />-<Key side={"right"} value={"Y"} /> row.</p>
         <p>
             The keys of early typewriters were, sensibly enough, laid out in alphabetical order. The impetus
             for change was not exactly the yearning for blistering speed that has brought us
@@ -79,20 +81,20 @@ export const lessonContents:{[key:string]:JSX.Element} = {
             Progress and fate hand in hand once more.</p>
         <ul className="keys">
             <li>The <strong>left index finger</strong> will control the
-                <span className="greyKey">R</span> and <span className="greyKey">T</span> keys, the <strong>right index
-                    finger</strong> will control the <span className="blueKey">Y</span> and <span className="blueKey">U</span>
+                <Key side={"left"} value={"R"} /> and <Key side={"left"} value={"T"} /> keys, the <strong>right index
+                    finger</strong> will control the <Key side={"right"} value={"Y"} /> and <Key side={"right"} value={"U"} />
                 keys.</li>
 
             <li>The <strong>left middle finger</strong> will control the
-                <span className="greyKey">E</span> key, the <strong>right middle
-                    finger</strong> will control the <span className="blueKey">I</span> key.</li>
+                <Key side={"left"} value={"E"} /> key, the <strong>right middle
+                    finger</strong> will control the <Key side={"right"} value={"I"} /> key.</li>
 
             <li>The <strong>left ring finger</strong> will control the
-                <span className="greyKey">W</span> key, the <strong>right ring
-                    finger</strong> will control the <span className="blueKey">O</span> key.</li>
+                <Key side={"left"} value={"W"} /> key, the <strong>right ring
+                    finger</strong> will control the <Key side={"right"} value={"O"} /> key.</li>
             <li>The <strong>left little finger</strong> will control the
-                <span className="greyKey">Q</span> key, the <strong>right little
-                    finger</strong> will control the <span className="blueKey">P</span> key.</li></ul>
+                <Key side={"left"} value={"Q"} /> key, the <strong>right little
+                    finger</strong> will control the <Key side={"right"} value={"P"} /> key.</li></ul>
         <br />
         <div className="keyboard">
             <table className="bracket" id="keyboardPic" cellPadding={0} cellSpacing={1} border={0}>
@@ -120,7 +122,7 @@ export const lessonContents:{[key:string]:JSX.Element} = {
             looking at the keyboard already.</p>
         <p>The QWERTY row, as well as being the most celebrated on the
             keyboard is also the hardest working. Four of the five vowels,
-            <span className="greyKey">E</span>-<span className="blueKey">I</span>-<span className="blueKey">O</span>-<span className="blueKey">U</span> are to be found in this row. After completing the second
+            <Key side={"left"} value={"E"} />-<Key side={"right"} value={"I"} />-<Key side={"right"} value={"O"} />-<Key side={"right"} value={"U"} /> are to be found in this row. After completing the second
             lesson you should discover that you are already well on the
             way to being a touch typist and your fingers are becoming ever more
             adept at finding the right key without your conscious thought.</p>
@@ -132,7 +134,7 @@ export const lessonContents:{[key:string]:JSX.Element} = {
         <p>Repeat each exercise at least three times, and remember - <a href="/safety-first">take regular breaks</a>.</p>
     </>,
     "lessons/keyboard/3":<>
-        <p>The first row of the keyboard, the <span className="greyKey">Z</span>-<span className="greyKey">X</span>-<span className="greyKey">C</span>-<span className="greyKey">V</span>-<span className="greyKey">B</span> row
+        <p>The first row of the keyboard, the <Key side={"left"} value={"Z"} />-<Key side={"left"} value={"X"} />-<Key side={"left"} value={"C"} />-<Key side={"left"} value={"V"} />-<Key side={"left"} value={"B"} /> row
             cannot claim the importance in the pursuit of touch typing
             of the <strong>home row</strong>. Nor can it contest the international fame
             or high profile of the hard working <strong>QWERTY row</strong>. But there is one way in which it can surpass them both. Once you have mastered the
@@ -144,24 +146,24 @@ export const lessonContents:{[key:string]:JSX.Element} = {
             Your keyboard should have two shift keys, one to the left, one to the right.
             The proficient typist will use the little finger of their inactive hand
             to work one of the shift keys when capitals are needed. </p>
-        <p>So, if you are to type a <strong>capital R</strong>, you will strike the <span className="greyKey">R</span> key with the <strong>index finger of your left hand</strong> whilst depressing the <strong>shift key</strong>
+        <p>So, if you are to type a <strong>capital R</strong>, you will strike the <Key side={"left"} value={"R"} /> key with the <strong>index finger of your left hand</strong> whilst depressing the <strong>shift key</strong>
             with the <strong>little finger of your right hand</strong>. A team game for the opposing forces of left and right.</p>
         <ul className="keys">
             <li>The <strong>left index finger</strong> will control the
-                <span className="greyKey">V</span> and <span className="greyKey">B</span> keys, and the <strong>right index
-                    finger</strong> will control the <span className="blueKey">N</span> and <span className="blueKey">M</span>
+                <Key side={"left"} value={"V"} /> and <Key side={"left"} value={"B"} /> keys, and the <strong>right index
+                    finger</strong> will control the <Key side={"right"} value={"N"} /> and <Key side={"right"} value={"M"} />
                 keys.</li>
             <li>The <strong>left middle finger</strong> will control the
-                <span className="greyKey">C</span> key, and the <strong>right middle
-                    finger</strong> will control the <span className="blueKey">,</span> key.</li>
+                <Key side={"left"} value={"C"} /> key, and the <strong>right middle
+                    finger</strong> will control the <Key side={"right"} value={","} /> key.</li>
             <li>The <strong>left ring finger</strong> will control the
-                <span className="greyKey">X</span> key, and the <strong>right ring
-                    finger</strong> will control the <span className="blueKey">.</span> key.</li>
+                <Key side={"left"} value={"X"} /> key, and the <strong>right ring
+                    finger</strong> will control the <Key side={"right"} value={"."} /> key.</li>
             <li>The <strong>left little finger</strong> will control the
-                <span className="greyKey">Z</span> key, and the <strong>right little
-                    finger</strong> will control the <span className="blueKey">/</span> key.</li>
-            <li>The <span className="greyKey">left&nbsp;shift&nbsp;key</span> is controlled by the
-                <strong>left little finger</strong> and the <span className="blueKey">right&nbsp;shift&nbsp;key</span> is controlled by the <strong>right little finger</strong></li>
+                <Key side={"left"} value={"Z"} /> key, and the <strong>right little
+                    finger</strong> will control the <Key side={"right"} value={"/"} /> key.</li>
+            <li>The <Key side="left" value={"left shift key"} /> is controlled by the
+                <strong>left little finger</strong> and the <Key side={"right"} value={"right shift key"} /> is controlled by the <strong>right little finger</strong></li>
         </ul>
         <br />
         <div className="keyboard">
@@ -201,18 +203,18 @@ export const lessonContents:{[key:string]:JSX.Element} = {
             row. The <strong>number row</strong>.</p>
         <ul className="keys">
             <li>The <strong>left index finger</strong> will control the
-                <span className="greyKey">4</span> and <span className="greyKey">5</span> keys,  the <strong>right index
-                    finger</strong> will control the <span className="blueKey">6</span> and <span className="blueKey">7</span>
+                <Key side={"left"} value={"4"} /> and <Key side={"left"} value={"5"} /> keys,  the <strong>right index
+                    finger</strong> will control the <Key side={"right"} value={"6"} /> and <Key side={"right"} value={"7"} />
                 keys.</li>
             <li>The <strong>left middle finger</strong> will control the
-                <span className="greyKey">3</span> key, the <strong>right middle
-                    finger</strong> will control the <span className="blueKey">8</span> key.</li>
+                <Key side={"left"} value={"3"} /> key, the <strong>right middle
+                    finger</strong> will control the <Key side={"right"} value={"8"} /> key.</li>
             <li>The <strong>left ring finger</strong> will control the
-                <span className="greyKey">2</span> key, the <strong>right ring
-                    finger</strong> will control the <span className="blueKey">9</span> key.</li>
+                <Key side={"left"} value={"2"} /> key, the <strong>right ring
+                    finger</strong> will control the <Key side={"right"} value={"9"} /> key.</li>
             <li>The <strong>left little finger</strong> will control the
-                <span className="greyKey">1</span> key, the <strong>right little
-                    finger</strong> will control the <span className="blueKey">0</span> key.</li>
+                <Key side={"left"} value={"1"} /> key, the <strong>right little
+                    finger</strong> will control the <Key side={"right"} value={"0"} /> key.</li>
         </ul>
         <br />
         <div className="keyboard">
@@ -283,8 +285,8 @@ export const lessonContents:{[key:string]:JSX.Element} = {
         <p>There are a small number of new keys to learn in this lesson. They are operated by the two <strong>little fingers</strong> so they may feel themselves overworked today.</p>
         <ul className="keys">
             <li>The <strong>left little finger</strong> will control the
-                <span className="greyKey">`</span> key, the <strong>right little
-                    finger</strong> will control the <span className="blueKey">-</span>, <span className="blueKey">=</span>, <span className="blueKey">[</span>, <span className="blueKey">]</span>, <span className="blueKey">&apos;</span>, and <span className="blueKey">\</span> keys.</li>
+                <Key side={"left"} value={"`"} /> key, the <strong>right little
+                    finger</strong> will control the <Key side={"right"} value={"-"} />, <Key side={"right"} value={"="} />, <Key side={"right"} value={"["} />, <Key side={"right"} value={"]"} />, <Key side={"right"} value={"'"} />, and <Key side={"right"} value={"\\"} /> keys.</li>
         </ul>
         <br />
         <div className="keyboard">
@@ -497,20 +499,20 @@ export const lessonContents:{[key:string]:JSX.Element} = {
         <p>Repeat each exercise at least three times.</p>
     </>,
     "lessons/number-pad/1":<>
-        <p>The <strong>number pad</strong> keys are arranged in four columns and five rows. In our first lesson we will cover the <span className="greyKey">4</span>-<span className="blueKey">5</span>-<span className="greyKey">6</span>-<span className="blueKey">+</span> row.</p>
+        <p>The <strong>number pad</strong> keys are arranged in four columns and five rows. In our first lesson we will cover the <Key side={"left"} value={"4"} />-<Key side={"right"} value={"5"} />-<Key side={"left"} value={"6"} />-<Key side={"right"} value={"+"} /> row.</p>
         <p>When at rest the fingers of the typist&apos;s <strong>right hand</strong> are positioned,
-            lightly, on the <span className="greyKey">4</span>-<span className="blueKey">5</span>-<span className="greyKey">6</span>-<span className="blueKey">+</span> keys.</p>
+            lightly, on the <Key side={"left"} value={"4"} />-<Key side={"right"} value={"5"} />-<Key side={"left"} value={"6"} />-<Key side={"right"} value={"+"} /> keys.</p>
         <ul className="keys">
             <li>The <strong>right index
-                finger</strong> will control the <span className="greyKey">4</span>
+                finger</strong> will control the <Key side={"left"} value={"4"} />
                 key.</li>
             <li>The <strong>right middle
-                finger</strong> will control the <span className="blueKey">5</span> key.</li>
+                finger</strong> will control the <Key side={"right"} value={"5"} /> key.</li>
             <li>The <strong>right ring
-                finger</strong> will control the <span className="greyKey">6</span> key.</li>
+                finger</strong> will control the <Key side={"left"} value={"6"} /> key.</li>
             <li>The <strong>right little
-                finger</strong> will control the <span className="blueKey">+</span> key.</li>
-            <li>The <span className="blueKey">0</span> is controlled by the
+                finger</strong> will control the <Key side={"right"} value={"+"} /> key.</li>
+            <li>The <Key side={"right"} value={"0"} /> is controlled by the
                 <strong>right thumb</strong>.</li>
         </ul>
         <br />
@@ -533,16 +535,16 @@ export const lessonContents:{[key:string]:JSX.Element} = {
             RF = ring finger,
             LF = little finger</label>
         <br />
-        <p>The <span className="blueKey">5</span> key often
+        <p>The <Key side={"right"} value={"5"} /> key often
             has a <strong>small raised bump</strong> on its top, a
             tactile aid for the typist.</p>
         <p>The locations of all the other keys on the number pad are learned
             in relation to this <strong>home key</strong> so the touch-typist must be able
             to locate the <strong>home key</strong> by touch.</p>
         <p>Using the <strong>raised
-            bump</strong> on the <span className="blueKey">5</span>
+            bump</strong> on the <Key side={"right"} value={"5"} />
             key as a guide, see if you can correctly place your fingers on
-            the  <span className="greyKey">4</span>-<span className="blueKey">5</span>-<span className="greyKey">6</span>-<span className="blueKey">+</span> keys <em>without looking at the keyboard</em>. No
+            the  <Key side={"left"} value={"4"} />-<Key side={"right"} value={"5"} />-<Key side={"left"} value={"6"} />-<Key side={"right"} value={"+"} /> keys <em>without looking at the keyboard</em>. No
             peeking.</p>
         <p>Before you start the exercises make sure you are sitting up straight, your feet flat on the floor. Keep your elbows close to your body, your wrists straight and your forearms level, and remember - <a href="/safety-first">take regular breaks</a>.</p>
         <p>When you are ready to begin, select an exercise and strike the key requested. Try not to look at the
@@ -557,15 +559,15 @@ export const lessonContents:{[key:string]:JSX.Element} = {
         <p>Repeat each exercise at least three times.</p>
     </>,
     "lessons/number-pad/2":<>
-        <p>In our second lesson we will cover the <span className="greyKey">1</span>-<span className="blueKey">2</span>-<span className="greyKey">3</span> row and the <span className="greyKey">.</span> key.</p>
+        <p>In our second lesson we will cover the <Key side={"left"} value={"1"} />-<Key side={"right"} value={"2"} />-<Key side={"left"} value={"3"} /> row and the <Key side={"left"} value={"."} /> key.</p>
         <ul className="keys">
             <li>The <strong>right index
-                finger</strong> will control the <span className="greyKey">1</span>
+                finger</strong> will control the <Key side={"left"} value={"1"} />
                 key.</li>
             <li>The <strong>right middle
-                finger</strong> will control the <span className="blueKey">2</span> key.</li>
+                finger</strong> will control the <Key side={"right"} value={"2"} /> key.</li>
             <li>The <strong>right ring
-                finger</strong> will control the <span className="greyKey">3</span> and <span className="greyKey">.</span> keys.</li>
+                finger</strong> will control the <Key side={"left"} value={"3"} /> and <Key side={"left"} value={"."} /> keys.</li>
         </ul>
         <br />
         <div className="keyboard">
@@ -606,17 +608,17 @@ export const lessonContents:{[key:string]:JSX.Element} = {
     "lessons/number-pad/3/big-plus":<>
         <h4>Big Plus(+) Key Layout&nbsp;| <a href="/lessons/number-pad/3/little-plus">Regular Size Plus(+) Key Layout</a></h4>
         <p><strong>Different keyboards</strong> touch-typing assumes that all number pads have the same layout. There is clearly no point in training yourself to touch type if you cannot expect the number pads to be laid out in a uniform manner. However, while the layout of the number keys is constant, there <em>are</em> slight variations in the position of the operator keys which are relevant to this lesson, so look at the menu above and click on your number pad type.</p>
-        <p>In our third lesson we will cover the <span className="greyKey">7</span>-<span className="blueKey">8</span>-<span className="greyKey">9</span>-<span className="blueKey">+</span> row .</p>
+        <p>In our third lesson we will cover the <Key side={"left"} value={"7"} />-<Key side={"right"} value={"8"} />-<Key side={"left"} value={"9"} />-<Key side={"right"} value={"+"} /> row .</p>
         <ul className="keys">
             <li>The <strong>right index
-                finger</strong> will control the <span className="greyKey">7</span>
+                finger</strong> will control the <Key side={"left"} value={"7"} />
                 key.</li>
             <li>The <strong>right middle
-                finger</strong> will control the <span className="blueKey">8</span> key.</li>
+                finger</strong> will control the <Key side={"right"} value={"8"} /> key.</li>
             <li>The <strong>right ring
-                finger</strong> will control the <span className="greyKey">9</span> key.</li>
+                finger</strong> will control the <Key side={"left"} value={"9"} /> key.</li>
             <li>The <strong>right little
-                finger</strong> will control the <span className="blueKey">+</span> key.</li>
+                finger</strong> will control the <Key side={"right"} value={"+"} /> key.</li>
         </ul>
         <br />
         <div className="keyboard">
@@ -659,17 +661,17 @@ export const lessonContents:{[key:string]:JSX.Element} = {
     "lessons/number-pad/3/little-plus":<>
         <h4><a href="/lessons/number-pad/3/big-plus">Big Plus(+) Key Layout</a>&nbsp;| Regular Size Plus(+) Key Layout</h4>
         <p><strong>Different keyboards</strong> touch-typing assumes that all number pads have the same layout. There is clearly no point in training yourself to touch type if you cannot expect the number pads to be laid out in a uniform manner. However, while the layout of the number keys is constant, there <em>are</em> slight variations in the position of the operator keys which are relevant to this lesson, so look at the menu above and click on your number pad type.</p>
-        <p>In our third lesson we will cover the <span className="greyKey">7</span>-<span className="blueKey">8</span>-<span className="greyKey">9</span>-<span className="blueKey">-</span> row .</p>
+        <p>In our third lesson we will cover the <Key side={"left"} value={"7"} />-<Key side={"right"} value={"8"} />-<Key side={"left"} value={"9"} />-<Key side={"right"} value={"-"} /> row .</p>
         <ul className="keys">
             <li>The <strong>right index
-                finger</strong> will control the <span className="greyKey">7</span>
+                finger</strong> will control the <Key side={"left"} value={"7"} />
                 key.</li>
             <li>The <strong>right middle
-                finger</strong> will control the <span className="blueKey">8</span> key.</li>
+                finger</strong> will control the <Key side={"right"} value={"8"} /> key.</li>
             <li>The <strong>right ring
-                finger</strong> will control the <span className="greyKey">9</span> key.</li>
+                finger</strong> will control the <Key side={"left"} value={"9"} /> key.</li>
             <li>The <strong>right little
-                finger</strong> will control the <span className="blueKey">-</span> key.</li>
+                finger</strong> will control the <Key side={"right"} value={"-"} /> key.</li>
         </ul>
         <br />
         <div className="keyboard">
@@ -713,14 +715,14 @@ export const lessonContents:{[key:string]:JSX.Element} = {
     </>,
     "lessons/number-pad/4/big-plus":<>
         <h4>Big Plus(+) Key Layout&nbsp;| <a href="/lessons/number-pad/4/little-plus">Regular Size Plus(+) Key Layout</a></h4>
-        <p>In our fourth lesson we will cover the operator keys of the <span className="blueKey">/</span>-<span className="greyKey">*</span>-<span className="blueKey">-</span> row .</p>
+        <p>In our fourth lesson we will cover the operator keys of the <Key side={"right"} value={"/"} />-<Key side={"left"} value={"*"} />-<Key side={"right"} value={"-"} /> row .</p>
         <ul className="keys">
             <li>The <strong>right middle
-                finger</strong> will control the <span className="blueKey">/</span> key.</li>
+                finger</strong> will control the <Key side={"right"} value={"/"} /> key.</li>
             <li>The <strong>right ring
-                finger</strong> will control the <span className="greyKey">*</span> key.</li>
+                finger</strong> will control the <Key side={"left"} value={"*"} /> key.</li>
             <li>The <strong>right little
-                finger</strong> will control the <span className="blueKey">-</span> key.</li>
+                finger</strong> will control the <Key side={"right"} value={"-"} /> key.</li>
         </ul>
         <br />
         <div className="keyboard">
@@ -763,14 +765,14 @@ export const lessonContents:{[key:string]:JSX.Element} = {
     </>,
     "lessons/number-pad/4/little-plus":<>
         <h4><a href="/lessons/number-pad/4/big-plus">Big Plus(+) Key Layout</a>&nbsp;| Regular Size Plus(+) Key Layout</h4>
-        <p>In our fourth lesson we will cover the operator keys of the <span className="blueKey">=</span>-<span className="greyKey">/</span>-<span className="blueKey">*</span> row .</p>
+        <p>In our fourth lesson we will cover the operator keys of the <Key side={"right"} value={"="} />-<Key side={"left"} value={"/"} />-<Key side={"right"} value={"*"} /> row .</p>
         <ul className="keys">
             <li>The <strong>right middle
-                finger</strong> will control the <span className="blueKey">=</span> key.</li>
+                finger</strong> will control the <Key side={"right"} value={"="} /> key.</li>
             <li>The <strong>right ring
-                finger</strong> will control the <span className="greyKey">/</span> key.</li>
+                finger</strong> will control the <Key side={"left"} value={"/"} /> key.</li>
             <li>The <strong>right little
-                finger</strong> will control the <span className="blueKey">*</span> key.</li>
+                finger</strong> will control the <Key side={"right"} value={"*"} /> key.</li>
         </ul>
         <br />
         <div className="keyboard">

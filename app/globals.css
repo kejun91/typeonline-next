@@ -49,8 +49,6 @@ p.mistakes {font-size: 1em; line-height: 1.5em; font-weight: normal;}
 #sideMenu li {padding-bottom: 0.33em;}
 #sideMenu li ul {padding-top:0.33em;}
 span.CPmistakeWas {font-size: 1em; font-weight: normal;}
-span.greyKey{text-align: center; font-weight: bold; background-color: #ddaaff;/*#e2e2e2;*/ border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-left: solid 1px #000000; border-right: solid 1px #000000; padding-left: 5px; padding-right: 5px;}
-span.blueKey{text-align: center; font-weight: bold; background-color: #aacc00;/*#b7cade;*/ border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-left: solid 1px #000000; border-right: solid 1px #000000; padding-left: 5px; padding-right: 5px;}
 table.bracket {width: 300px; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-left: solid 1px #000000; border-right: solid 1px #000000;}
 td.blue {background-color: #aacc00;/*#b7cade;*/ width: 27px; text-align: center; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-left: solid 1px #000000; border-right: solid 1px #000000;}
 td.grey {background-color: #ddaaff;/*#e2e2e2;*/ width: 27px; text-align: center; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; border-top: solid 1px #000000; border-bottom: solid 1px #000000; border-left: solid 1px #000000; border-right: solid 1px #000000;}
