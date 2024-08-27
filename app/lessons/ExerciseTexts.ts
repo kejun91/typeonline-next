@@ -47,7 +47,7 @@ export const exerciseTexts: {[key: string]: string[]} = {
         '16.9 Ljubljana 0.24 Stockholm 81.3 Dublin 5.39 Oslo 71.6', 
         '76.9 Belgrade 1.35 Reykjavik 72.0 Bern 86.4 Kiev'
     ],
-    "lessons/keyboard/5/uk-mac":[
+    "lessons/keyboard/5-uk-mac":[
         "!@£$% ^&amp;*()_+ +_)(*&amp;^ %$£@! !@£$% ^&amp;*()_+",
         ";'\ p[] 0-= =-0 ][p /'; ;'\ p[] =-0",
         "a`a a~a ;/; ,&lt;, .&gt;. /?/ ;:; '\' \|\ ]}] [{[",
@@ -59,7 +59,7 @@ export const exerciseTexts: {[key: string]: string[]} = {
         "if(chdir $where){ #we got there } else { #not }",
         "if (index &gt;= size) throw new ArrayIndexOutOfBounds"
     ],
-    "lessons/keyboard/5/uk-pc":[
+    "lessons/keyboard/5-uk-pc":[
         '|!"£$% ^&amp;*()_+ +_)(*&amp;^ %$£"!| |!"£$% ^&amp;*()_+',
         ";\'# p[] 0-= #\'; ][p =-0 0-= p[] ;\'# #\'; ][p =-0",
         "\a\ ,\&lt;, .&gt;. /?/ ;:; '@' #~# pPp [{[ ]}] 0)0 -_- =+=",
@@ -71,7 +71,7 @@ export const exerciseTexts: {[key: string]: string[]} = {
         "if(chdir $where){ #we got there } else { #not }",
         "if (index &gt;= size) throw new ArrayIndexOutOfBounds"
     ],
-    "lessons/keyboard/5/us":[
+    "lessons/keyboard/5-us":[
         "!@#$% ^&*()_+ +_)(*&^ %$#@! !@#$% ^&*()_+", 
         ";'\/ p[] 0-= =-0 ][p /\'; ;'\/ p[] =-0", 
         "1`1 1~1 ;/; ,<, .>. /?/ ;:; '\"' \\|\\ ]}] [{[ ", 
@@ -103,7 +103,7 @@ export const exerciseTexts: {[key: string]: string[]} = {
         "32.03+35.42+100.01+2.61+52.20+26.53+53.62+",
         "66.34+3.24+46.36+30.40+21.50+25.31+20.54+"
     ],
-    "lessons/number-pad/3/big-plus":[
+    "lessons/number-pad/3-big-plus":[
         "789++987474585696474585696",
         "20.08+77.79+7.99+41.78+45.49+40.81+",
         "3.84+16.94+68.66+100.82+48.69+92.63+",
@@ -113,7 +113,7 @@ export const exerciseTexts: {[key: string]: string[]} = {
         "8.94+5.93+73.59+86.63+40.77+2.37+",
         "81.94+96.41+48.02+97.83+51.59+57.89+"
     ],
-    "lessons/number-pad/3/little-plus":[ 
+    "lessons/number-pad/3-little-plus":[ 
         '789--987474585696+-+474585696+-+417528639+-+', 
         '20.08+77.79-7.99+41.78-45.49+40.81-27.82+57.33', 
         '3.84-16.94+68.66-100.82+48.69-92.63+49.98-30.07', 
@@ -123,7 +123,7 @@ export const exerciseTexts: {[key: string]: string[]} = {
         '8.94-5.93+73.59-86.63+40.77-2.37+17.72-94.73', 
         '81.94+96.41-48.02+97.83-51.59+57.89-4.49+20.79' 
     ],
-    "lessons/number-pad/4/big-plus":[
+    "lessons/number-pad/4-big-plus":[
         "-*/-*/5/56*6+-+5/56*6+-+",
         "6.74/68.50*6.74-67.75/45.36*28.08-48.89/",
         "53.96/67.47*73.69-32.09/71.89*20.96-24.18/",
@@ -133,7 +133,7 @@ export const exerciseTexts: {[key: string]: string[]} = {
         "69.59/6.01*38.22-55.18/56.98*24.12-49.50+",
         "84.63/10.33*28.91-6.20+17.07/56.73*43.91"
     ],
-    "lessons/number-pad/4/little-plus":[
+    "lessons/number-pad/4-little-plus":[
         "*/=*/=5=56/6+*+52=563/6+*+",
         "6.74/68.50*6.74=67.75/45.36*28.08=48.89/",
         "53.96/67.47*73.69=32.09/71.89*20.96=24.18/",

@@ -24,15 +24,15 @@ const pages = [
                 title: "Lesson 5",
                 children:[
                     {
-                        id:"lessons/keyboard/5/uk-mac",
+                        id:"lessons/keyboard/5-uk-mac",
                         title: "Lesson 5 - UK Mac layout"
                     },
                     {
-                        id:"lessons/keyboard/5/uk-pc",
+                        id:"lessons/keyboard/5-uk-pc",
                         title: "Lesson 5 - UK PC layout"
                     },
                     {
-                        id:"lessons/keyboard/5/us",
+                        id:"lessons/keyboard/5-us",
                         title: "Lesson 5 - US & International layout"
                     }
                 ]
@@ -56,11 +56,11 @@ const pages = [
                 title: "Lesson 3",
                 children:[
                     {
-                        id:"lessons/number-pad/3/big-plus",
+                        id:"lessons/number-pad/3-big-plus",
                         title: "Lesson 3 - big plus(+) key layout"
                     },
                     {
-                        id:"lessons/number-pad/3/little-plus",
+                        id:"lessons/number-pad/3-little-plus",
                         title: "Lesson 3 - regular size plus(+) key layout"
                     }
                 ]
@@ -70,11 +70,11 @@ const pages = [
                 title: "Lesson 4",
                 children:[
                     {
-                        id:"lessons/number-pad/4/big-plus",
+                        id:"lessons/number-pad/4-big-plus",
                         title: "Lesson 4 - big plus(+) key layout"
                     },
                     {
-                        id:"lessons/number-pad/4/little-plus",
+                        id:"lessons/number-pad/4-little-plus",
                         title: "Lesson 4 - regular size plus(+) key layout"
                     }
                 ]

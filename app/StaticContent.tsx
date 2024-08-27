@@ -270,8 +270,8 @@ export const staticContents:{[key:string]:JSX.Element} = {
             practice.</p>
         <p>Repeat each exercise at least three times.</p>
     </>,
-    "lessons/keyboard/5/uk-mac":<>
-        <h4><a href="/lessons/keyboard/5/uk-pc">UK PC Keyboard</a>&nbsp;| UK Apple Mac Keyboard&nbsp;| <a href="/lessons/keyboard/5/us">US Keyboard</a></h4>
+    "lessons/keyboard/5-uk-mac":<>
+        <h4><a href="/lessons/keyboard/5-uk-pc">UK PC Keyboard</a>&nbsp;| UK Apple Mac Keyboard&nbsp;| <a href="/lessons/keyboard/5-us">US Keyboard</a></h4>
         <p><strong>Different keyboards</strong> touch typing assumes that all keyboards have the same layout. There is clearly no point in learning to touch type if you cannot expect the keyboards to be laid out in a uniform manner. However, while the QWERTY layout is widely used around the world and almost exclusively in the English speaking world, there <em>are</em> slight variations which are relevant to this lesson, so look at the menu above and click on your keyboard type.</p>
         <p>This is the last lesson in our touch typing course. We hope you have found learning to type with Typeonline enjoyable.
             You should by now have learned to be comfortable with touch typing. Hands on the keyboard, eyes
@@ -351,8 +351,8 @@ export const staticContents:{[key:string]:JSX.Element} = {
             practice.</p>
         <p>Repeat each exercise at least three times.</p>
     </>,
-    "lessons/keyboard/5/uk-pc":<>
-        <h4>UK PC Keyboard&nbsp;| <a href="/lessons/keyboard/5/uk-mac">UK Apple Mac Keyboard</a>&nbsp;| <a href="/lessons/keyboard/5/us">US Keyboard</a></h4>
+    "lessons/keyboard/5-uk-pc":<>
+        <h4>UK PC Keyboard&nbsp;| <a href="/lessons/keyboard/5-uk-mac">UK Apple Mac Keyboard</a>&nbsp;| <a href="/lessons/keyboard/5-us">US Keyboard</a></h4>
         <p><strong>Different keyboards</strong> touch-typing assumes that all keyboards have the same layout. There is clearly no point in training yourself to touch-type if you cannot expect the keyboards to be laid out in a uniform manner. However, while the <abbr>QWERTY</abbr> layout is widely used around the world and almost exclusively in the English speaking world, there <em>are</em> slight variations which are relevant to this lesson, so look at the menu above and click on your keyboard type.</p>
         <p>This is the last lesson in our touch-typing course. We hope you have found it enjoyable.
             You should by now be comfortable with touch-typing. Hands on the keyboard, eyes
@@ -424,8 +424,8 @@ export const staticContents:{[key:string]:JSX.Element} = {
             practice.</p>
         <p>Repeat each exercise at least three times.</p>
     </>,
-    "lessons/keyboard/5/us":<>
-        <h4><a href="/lessons/keyboard/5/uk-pc">UK PC Keyboard</a>&nbsp;| <a href="/lessons/keyboard/5/uk-mac">UK Apple Mac Keyboard</a>&nbsp;| US Keyboard</h4>
+    "lessons/keyboard/5-us":<>
+        <h4><a href="/lessons/keyboard/5-uk-pc">UK PC Keyboard</a>&nbsp;| <a href="/lessons/keyboard/5-uk-mac">UK Apple Mac Keyboard</a>&nbsp;| US Keyboard</h4>
         <p><strong>Different keyboards</strong> touch-typing assumes that all keyboards have the same layout. There is clearly no point in training yourself to touch-type if you cannot expect the keyboards to be laid out in a uniform manner. However, while the QWERTY layout is widely used around the world and almost exclusively in the English speaking world, there <em>are</em> slight variations which are relevant to this lesson, so look at the menu above and click on your keyboard type.</p>
         <p>This is the last lesson in our touch-typing course. We hope you have found it enjoyable.
             You should by now be comfortable with touch-typing. Hands on the keyboard, eyes
@@ -604,8 +604,8 @@ export const staticContents:{[key:string]:JSX.Element} = {
                 practice.</p>
         <p>Repeat each exercise at least three times.</p>
     </>,
-    "lessons/number-pad/3/big-plus":<>
-        <h4>Big Plus(+) Key Layout&nbsp;| <a href="/lessons/number-pad/3/little-plus">Regular Size Plus(+) Key Layout</a></h4>
+    "lessons/number-pad/3-big-plus":<>
+        <h4>Big Plus(+) Key Layout&nbsp;| <a href="/lessons/number-pad/3-little-plus">Regular Size Plus(+) Key Layout</a></h4>
         <p><strong>Different keyboards</strong> touch-typing assumes that all number pads have the same layout. There is clearly no point in training yourself to touch type if you cannot expect the number pads to be laid out in a uniform manner. However, while the layout of the number keys is constant, there <em>are</em> slight variations in the position of the operator keys which are relevant to this lesson, so look at the menu above and click on your number pad type.</p>
         <p>In our third lesson we will cover the <Key side={"left"} value={"7"} />-<Key side={"right"} value={"8"} />-<Key side={"left"} value={"9"} />-<Key side={"right"} value={"+"} /> row .</p>
         <ul className="keys">
@@ -657,8 +657,8 @@ export const staticContents:{[key:string]:JSX.Element} = {
                 practice.</p>
         <p>Repeat each exercise at least three times.</p>
     </>,
-    "lessons/number-pad/3/little-plus":<>
-        <h4><a href="/lessons/number-pad/3/big-plus">Big Plus(+) Key Layout</a>&nbsp;| Regular Size Plus(+) Key Layout</h4>
+    "lessons/number-pad/3-little-plus":<>
+        <h4><a href="/lessons/number-pad/3-big-plus">Big Plus(+) Key Layout</a>&nbsp;| Regular Size Plus(+) Key Layout</h4>
         <p><strong>Different keyboards</strong> touch-typing assumes that all number pads have the same layout. There is clearly no point in training yourself to touch type if you cannot expect the number pads to be laid out in a uniform manner. However, while the layout of the number keys is constant, there <em>are</em> slight variations in the position of the operator keys which are relevant to this lesson, so look at the menu above and click on your number pad type.</p>
         <p>In our third lesson we will cover the <Key side={"left"} value={"7"} />-<Key side={"right"} value={"8"} />-<Key side={"left"} value={"9"} />-<Key side={"right"} value={"-"} /> row .</p>
         <ul className="keys">
@@ -712,8 +712,8 @@ export const staticContents:{[key:string]:JSX.Element} = {
                 practice.</p>
         <p>Repeat each exercise at least three times.</p>
     </>,
-    "lessons/number-pad/4/big-plus":<>
-        <h4>Big Plus(+) Key Layout&nbsp;| <a href="/lessons/number-pad/4/little-plus">Regular Size Plus(+) Key Layout</a></h4>
+    "lessons/number-pad/4-big-plus":<>
+        <h4>Big Plus(+) Key Layout&nbsp;| <a href="/lessons/number-pad/4-little-plus">Regular Size Plus(+) Key Layout</a></h4>
         <p>In our fourth lesson we will cover the operator keys of the <Key side={"right"} value={"/"} />-<Key side={"left"} value={"*"} />-<Key side={"right"} value={"-"} /> row .</p>
         <ul className="keys">
             <li>The <strong>right middle
@@ -762,8 +762,8 @@ export const staticContents:{[key:string]:JSX.Element} = {
                 practice.</p>
         <p>Repeat each exercise at least three times.</p>
     </>,
-    "lessons/number-pad/4/little-plus":<>
-        <h4><a href="/lessons/number-pad/4/big-plus">Big Plus(+) Key Layout</a>&nbsp;| Regular Size Plus(+) Key Layout</h4>
+    "lessons/number-pad/4-little-plus":<>
+        <h4><a href="/lessons/number-pad/4-big-plus">Big Plus(+) Key Layout</a>&nbsp;| Regular Size Plus(+) Key Layout</h4>
         <p>In our fourth lesson we will cover the operator keys of the <Key side={"right"} value={"="} />-<Key side={"left"} value={"/"} />-<Key side={"right"} value={"*"} /> row .</p>
         <ul className="keys">
             <li>The <strong>right middle
@@ -868,5 +868,69 @@ export const staticContents:{[key:string]:JSX.Element} = {
         <p>One word-unit is five keystrokes. Thus, <em>&quot;typed&quot;</em> is one word-unit, <em>&quot;type on it&quot;</em> is two word-units (spaces count as keystrokes too).</p>
         <h3>Typing technique</h3>
         <p>Before you begin the typing speed test make sure you are sitting up straight, your feet flat on the floor. Keep your elbows close to your body, your wrists straight and your forearms level, and remember to <a href="/safety-first">take regular breaks</a>.</p>
+    </>,
+    "/about": <>
+        <p><i>This site was revamped under the domain typeonline.uk on 20th August 2024.</i> <a href="mailto:diphth@gmail.com">Contact</a> for any questions.</p>
+        <h3>About us</h3>
+        <p>
+            Typeonline was designed and implemented by Dave Bartlett, a web developer based in Hampshire, and began as a small
+            in-house project intended to do no more than keep the rust from the author&apos;s keyboard skills.</p>
+        <p>Discussions with family and friends convinced him that a free online typing tutorial would provide a useful
+            resource to a wider audience, and led to revisions of the initial typing practice routine into the full featured
+            offering of Typeonline.</p>
+        <h3>Academic authority</h3>
+        <p>We are proud to say that both Education Network Australia (<a href="http://www.edna.edu.au/">EdNA</a>)
+            [edna.edu.au], and the National Grid for Learning (NGfL), have assessed Typeonline and judged our offering to be
+            <em>a quality educational resource</em>.
+        </p>
+        <h3>Copyright statement</h3>
+        <p>
+            The <a href="/practice/word">copy practice</a> and <a href="/speed-test/word">speed test</a> exercises use exerpts of published works for their sample texts; the copyright of those exerpts belongs to their authors.</p><p>The copyright of all other material on this website belongs to Dave Bartlett. All rights reserved.
+        </p>
+        <h3>Data protection statement - privacy policy</h3>
+        <p>Typeonline is based in the UK and subject to the Data Protection Act.</p>
+        <blockquote>
+            <p>
+                The Data Protection Act 1998 states that anyone processing personal data must comply with the eight enforceable principles of good practice. These state that data must be:
+            </p>
+                <ol><li> fairly and lawfully processed</li>
+                    <li> processed for limited purposes</li>
+                    <li> adequate, relevant and not excessive</li>
+                    <li> accurate</li>
+                    <li> not kept longer than necessary</li>
+                    <li> processed in accordance with the data subject&apos;s rights</li>
+                    <li> secure</li>
+                    <li> not transferred to countries without adequate protection.</li>
+                </ol>
+        </blockquote>
+    </>,
+    "/safety-first": <>
+        <h3>Safety first</h3>
+        <p>As computer use has increased both at work and home in recent years Repetitive Strain Injury (RSI) has become associated with keyboard use. To reduce your risk of developing <abbr title="Repetitive Strain Injury">RSI</abbr> or other overuse injuries you should follow best practice in posture, technique, workstation set-up,  and take regular breaks.</p>
+        <p>Listen to your body. If typing causes you pain, stop. If the pain persists, consult your doctor.</p>
+        <ul><li><a href="http://www.nhs.uk/conditions/Repetitive-strain-injury/Pages/Introduction.aspx" tabIndex={1} title="National Health Service (NHS)">Repetitive strain injury (RSI)</a> [nhs.uk]</li>
+            <li><a href="http://www.hse.gov.uk/msd/uld/" tabIndex={2} title="Health &amp; Safety Executive">Upper limb disorders (ULDs)</a> [hse.gov.uk]</li></ul>
+        <br />
+        <h3>Posture &amp; technique</h3>
+        <p>
+            Sit with your back straight and your feet, either flat on the floor or on a foot rest. You should be  arms length, 12-30 inches (25-75cm), from your computer monitor (VDU). Raise the monitor (VDU) so the your eyes are level with the top of the screen. Make sure the F and J keys of the keyboard are immediately opposite the middle of your body.
+        </p>
+        <p>
+            When typing, keep your elbows close to your body, wrists and forearms level. After striking each key return your fingers to their <em>resting</em> position over the <strong>home row</strong>.</p>
+        <ul><li><a href="http://www.osha.gov/SLTC/etools/computerworkstations/positions.html" tabIndex={3} title="US Department of Labor">Good working positions</a> [osha.gov]</li>
+            <li><a href="http://www.nhs.uk/Livewell/workplacehealth/Pages/Howtositcorrectly.aspx" tabIndex={4} title="National Health Service (NHS)">How to sit correctly</a> [nhs.uk]</li>
+            <li><a href="http://www.alexandertechniqueworldwide.com/" tabIndex={5} title="The International Affiliated Societies of Teachers of the Alexander Technique">The Alexander Technique</a> [alexandertechniqueworldwide.com]</li>
+        </ul>
+        <br />
+        <h3>Take regular breaks</h3>
+        <p>
+            It is desirable to avoid staying in one position for extended periods. Break up your day by alternating tasks when possible.</p><p>It may help you to use software to remind yourself to take a break from your keyboard.
+        </p>
+
+        <ul>
+            <li>MS Windows: <a href="http://download.cnet.com/Workrave/3000-2051_4-73765.html" tabIndex={6} title="CNET Downloads">Work Rave</a> [cnet.com]</li>
+            <li>Mac OS X: <a href="http://download.cnet.com/Dejal-Time-Out/3000-2129_4-41634.html?tag=mncol;7" tabIndex={7} title="CNET  Downloads">Time out!</a> [cnet.com]</li>
+            <li>Linux/X11: <a href="http://www.lcdf.org/~eddietwo/xwrits/" tabIndex={8} title="Little Cambridgeport Design Factory.">Xwrits</a> [lcdf.org]</li>
+        </ul>
     </>
 };
