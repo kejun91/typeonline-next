@@ -5,7 +5,7 @@ export function isAllowedChar(char:string) {
         // Group 2
         "s", "S", "w", "W", "x", "X", "2", "\"",
         // Group 3
-        "d", "D", "e", "E", "c", "C", "3", "?", "£",
+        "d", "D", "e", "E", "c", "C", "3", "?",
         // Group 4
         "f", "F", "g", "G", "r", "R", "t", "T", "v", "V", "b", "B", "4", "5", "$", "%",
         // Group 5
