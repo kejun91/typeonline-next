@@ -1,6 +1,7 @@
 export const runtime = 'edge';
 
 import type { Metadata } from "next";
+import { GoogleAnalytics } from '@next/third-parties/google';
 // import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -29,6 +30,7 @@ export default function RootLayout({
                     <p id="copyright">&copy; Dave Bartlett 2004-2018</p>
                 </div>
             </body>
+            <GoogleAnalytics gaId="G-XSFF218HMT" />
         </html>
     );
 }
