@@ -1,6 +1,7 @@
 export const runtime = 'edge';
 
 import type { Metadata } from "next";
+import { GoogleAnalytics } from '@next/third-parties/google';
 // import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -28,6 +29,7 @@ export default function RootLayout({
                     <p id="updated"><strong>Last updated:</strong> 20th August 2024</p>
                 </div>
             </body>
+            <GoogleAnalytics gaId="G-XSFF218HMT" />
         </html>
     );
 }
