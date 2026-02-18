@@ -1,7 +1,7 @@
 import React from "react";
 import Key from "./components/key";
 
-export const staticContents:{[key:string]:JSX.Element} = {
+export const staticContents:{[key:string]:React.JSX.Element} = {
     "lessons/keyboard/1": <>
         <p>The <strong>home row</strong> of the keyboard is the most important to the
             touch-typist.</p><p>When at rest the typist&apos;s fingers are positioned,

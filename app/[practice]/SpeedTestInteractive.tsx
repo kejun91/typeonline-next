@@ -55,7 +55,7 @@ function evaluateResult(sampleText:string, userText:string) {
     });
 
     const accuracy = Math.round(100 - (100 * (mistakes.length / userArray.length)));
-    const result:JSX.Element[] = [];
+    const result:React.JSX.Element[] = [];
     if (mistakes.length === 0) {
         result.push(<>Accuracy: <b>100%</b><br /><br />You made no mistakes.<br /><br /></>);
     } else if (mistakes.length === 1) {
@@ -95,9 +95,9 @@ export default function InteractiveContent({ practiceType }: Props){
     const [practiceText, setPracticeText] = useState("");
     const [sampleTextContent, setSampleTextContent] = useState(<></>);
     const [testChanged, setTestChanged] = useState(false);
-    const [result, setResult] = useState<JSX.Element[]>([]);
+    const [result, setResult] = useState<React.JSX.Element[]>([]);
     const [inputValue, setInputValue] = useState("");
-    const [formattedInputValue, setFormattedInputValue] = useState<JSX.Element[]|null>(null);
+    const [formattedInputValue, setFormattedInputValue] = useState<React.JSX.Element[]|null>(null);
     const [startTime, setStartTime] = useState<number|null>(null);
     const [wpm, setWpm] = useState<number|null>(null);
 

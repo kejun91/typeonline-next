@@ -26,7 +26,6 @@ export default function RootLayout({
                 {children}
                 <div id="footer">
                     <p id="updated"><strong>Last updated:</strong> 20th August 2024</p>
-                    <p id="copyright">&copy; Dave Bartlett 2004-2018</p>
                 </div>
             </body>
         </html>
