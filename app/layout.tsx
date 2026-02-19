@@ -20,7 +20,7 @@ export default function RootLayout({
 
     return (
         <html lang="en">
-            <body >
+            <body>
                 <div id="header">
                     <h1><a href="/"><span>learn to type online...</span><br/>typeonline.uk</a></h1>
                 </div>
@@ -28,8 +28,8 @@ export default function RootLayout({
                 <div id="footer">
                     <p id="updated"><strong>Last updated:</strong> 20th August 2024</p>
                 </div>
+                <GoogleAnalytics gaId="G-XSFF218HMT" />
             </body>
-            <GoogleAnalytics gaId="G-XSFF218HMT" />
         </html>
     );
 }
